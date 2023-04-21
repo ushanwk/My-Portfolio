@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css Case One</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
+    <style>
+
+      body>section{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+      }
+
+      body>section>section{
+        width: 50%;
+        height: 50%;
+        position: absolute;
+      }
+
+      section:nth-child(1){
+        background-color: red;
+        left: 0;
+        top: 0;
+      }
+
+      section:nth-child(2){
+        background-color: green;
+        right: 0;
+        top: 0;
+      }
+
+      section:nth-child(3){
+        background-color: yellow;
+        bottom: 0;
+        left: 0;
+      }
+
+      section:nth-child(4){
+        background-color: pink;
+        bottom: 0;
+        right: 0;
+      }
+
+      
+
+    </style>
+
+</head>
+<body>
+  <section>
+    <section>
+
+    </section>
+
+    <section>
+
+    </section>
+
+    <section>
+
+    </section>
+
+    <section>
+
+    </section>
+  </section>
+</body>
+</html>
