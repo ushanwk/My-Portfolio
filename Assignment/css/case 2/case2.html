@@ -85,6 +85,73 @@
       margin-left: 9px;
     }
 
+    body>main{
+      position: relative;
+      margin-top:80px;
+    }
+    body>main>nav{
+      width: 200px;
+      background-color:blueviolet;
+      color: white;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+    }
+    body>main>nav>ul{
+      list-style: none;
+      margin-top: 20px;
+    }
+
+    body>main>nav>ul>li{
+      padding-bottom: 15px;
+      font-size: 18px;
+      margin-top: 7px;
+    }
+    body>main>nav>ul>li>a{
+      text-decoration: none;
+      color: white;
+      margin-left: 9px;
+    }
+
+    main>section>section{
+      margin-left: 200px;
+      padding: 10px;
+      position: relative;
+    }
+    main>section>section>div{
+
+      height: 100%;
+      width: calc(100%/3);
+      display: inline;
+    }
+
+    main>section>section>div>img{
+      width: 33%;
+      height:32%;
+    }
+    main>section>section>div:nth-child(1){
+      left: 0;
+    }
+    main>section>section>div:nth-child(2){
+      left: calc(100%/3);
+    }
+    main>section>section>div:nth-child(3){
+      right: 0;
+    }
+
+    #chatBox{
+      width: 200px;
+      height: 50px;
+      background: darkblue;
+      text-align: center;
+      color: white;
+      position: fixed;
+      right: 20px;
+      bottom: 70px;
+      border-radius: 20px;
+
+    }
+
 
 
     footer{
