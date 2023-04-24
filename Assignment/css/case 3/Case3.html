@@ -8,7 +8,12 @@
 
   <style>
 
-    div:nth-child(1){
+    section{
+      width: 100vw;
+      height: 100vh;
+    }
+
+    section:nth-child(1)>div:nth-child(1){
       width: 300px;
       height: 300px;
       border-radius: 100%;
@@ -20,9 +25,10 @@
       top: 0;
       margin: auto;
       background-color: transparent;
+      z-index: 3;
     }
 
-    div:nth-child(2){
+    section:nth-child(1)>div:nth-child(2){
       width: 270px;
       height: 270px;
       border-radius: 100%;
@@ -34,17 +40,44 @@
       top: 0;
       margin: auto;
       background-color: transparent;
+      z-index: 3;
     }
 
-    div{
-      width: 240px;
-      height: 240px;
+    section:nth-child(1)>div:nth-child(3){
+      width: 265px;
+      height: 265px;
+      border-radius: 100%;
+      background-color: purple;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      margin: auto;
+    }
+
+    section:nth-child(2)>div{
+      width: 265px;
+      height: 265px;
       border-radius: 100%;
       background-color: aqua;
-      right: 0;
-      bottom: 0;
       left: 0;
-      top: 0;
+      right: 0;
+      top: 136%;
+      position: absolute;
+      margin: auto;
+    }
+
+
+    section:nth-child(3)>div{
+      width: 265px;
+      height: 265px;
+      border-radius: 100%;
+      background-color: orange;
+      left: 0;
+      right: 0;
+      top: 236.5%;
+      position: absolute;
       margin: auto;
     }
 
@@ -56,13 +89,19 @@
 
   <main>
 
-    <div></div>
+    <section>
+      <div></div>
+      <div></div>
+      <div></div>
+    </section>
 
-    <div></div>
+    <section>
+      <div></div>
+    </section>
 
-    <div></div>
-
-    <div></div>
+    <section>
+      <div></div>
+    </section>
 
   </main>
 
