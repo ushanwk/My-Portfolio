@@ -6,11 +6,13 @@
   <meta charset="UTF-8">
   <title>Css Case Three</title>
 
+  <link rel="stylesheet" href="/Assignment/css/normalize.css">
   <style>
 
     section{
       width: 100vw;
       height: 100vh;
+      position: relative;
     }
 
     section:nth-child(1)>div:nth-child(1){
@@ -60,10 +62,11 @@
       width: 265px;
       height: 265px;
       border-radius: 100%;
-      background-color: aqua;
+      background-color: cornflowerblue;
       left: 0;
       right: 0;
-      top: 136%;
+      top: 0;
+      bottom: 0;
       position: absolute;
       margin: auto;
     }
@@ -76,16 +79,19 @@
       background-color: orange;
       left: 0;
       right: 0;
-      top: 236.5%;
+      top: 0;
+      bottom: 0;
       position: absolute;
       margin: auto;
     }
 
     h1{
-      text-align: center;
-      top: 100.5px;
-      left: 100.5px;
       position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 100.5px;
+      text-align: center;
       color: white;
     }
 
@@ -107,7 +113,7 @@
 
     <section>
       <div>
-        <h1 style="left:76.5px">Welcome to</h1>
+        <h1>Welcome to</h1>
       </div>
     </section>
 
