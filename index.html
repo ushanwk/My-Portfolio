@@ -3,25 +3,63 @@
 <html>
 
     <head>
+
         <dfn id = "home"></dfn>
         <title>Ushan Kaushalya|Fullstack Developer</title>
         <meta name="description" content="Ushan Kaushalya">
+        <link rel="stylesheet" href="/Assignment/css/normalize.css">
+
+        <style>
+
+            header{
+                background-color: #EFF6FF;
+                position: relative;
+            }
+
+            header>nav>ul{
+                padding-right: 20px;
+                position: absolute;
+                margin-top: 23px;
+                top: 0;
+                right: 0;
+            }
+
+            header>nav>ul>li{
+                display: inline;
+                font-weight: bold;
+                margin: 15px;
+                padding: 5px;
+            }
+
+            header>nav>ul>li:nth-child(7){
+                background-color: #00ADB5;
+                border-radius: 5px;
+            }
+
+            header>nav>ul>li>a{
+                color: black;
+                text-decoration: none;
+            }
+
+        </style>
+
     </head>
 
     <body>
 
         <header>
-            <img src="assests/images/logo.png" width="7%" alt="Image not Found">
+            <img src="assests/images/logo.png" width="7%" alt="Image not Found" style="padding: 20px">
 
             <nav>
-                <menu>
+                <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#features">Feature</a></li>
                     <li><a href="#expertise">Expertise</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#contactme">Contact me</a></li>
-                </menu>
+                    <li><a>Download CV</a></li>
+                </ul>
             </nav>
         </header>
 
