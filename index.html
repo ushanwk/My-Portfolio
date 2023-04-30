@@ -15,10 +15,19 @@
                 background-color: #EFF6FF;
                 position: sticky;
                 top: 0;
+                z-index: 3;
+            }
+
+            header>img{
+                width: 7%;
+                padding: 20px;
+                padding-left: 40px;
+                left: 500px;
+                margin: auto;
             }
 
             header>nav>ul{
-                padding-right: 20px;
+                padding-right: 40px;
                 position: absolute;
                 margin-top: 23px;
                 top: 0;
@@ -28,13 +37,15 @@
             header>nav>ul>li{
                 display: inline;
                 font-weight: bold;
+                font-family: "Roboto Thin" ,sans-serif;
                 margin: 15px;
-                padding: 5px;
+                padding: 1px;
             }
 
             header>nav>ul>li:nth-child(7){
                 background-color: #00ADB5;
                 border-radius: 5px;
+                padding: 7px;
             }
 
             header>nav>ul>li>a {
@@ -42,14 +53,161 @@
                 text-decoration: none;
             }
 
-            section>img:nth-child(1){
-                width: 816px;
-                height: 674px;
-                top: 100px;
+
+
+
+
+
+
+
+            section:nth-child(1){
+                height: 90vh;
+                width: 100vw;
+                background-color: #EFF6FF;
+                position: relative;
+            }
+
+            section:nth-child(1)>img:nth-child(1){
+                position: absolute;
+                height: 90%;
+                width: 45%;
+                top: 5vh;
                 right: 0;
                 margin: auto;
-                position: absolute;
             }
+
+            section:nth-child(1)>img:nth-child(2){
+                position: absolute;
+                top: 10vh;
+                left: 7vw;
+                margin: auto;
+            }
+
+            section:nth-child(1)>h4{
+                font-family: "Roboto Thin" ,sans-serif;
+                position: absolute;
+                margin: auto;
+                bottom: 15vh;
+                left: 7vw;
+                color: white;
+                background-color: #00ADB5;
+                padding: 15px;
+                height: 18px;
+                width: 80px;
+                border-radius: 10px;
+            }
+
+
+
+
+
+
+
+
+            section:nth-child(2){
+                width: 100vw;
+                height: 50vh;
+                position: relative;
+            }
+
+            section:nth-child(2)>h1{
+                font-family: "Roboto Thin" ,sans-serif;
+                position: absolute;
+                top: 9vh;
+                left: 46vw;
+                margin: auto;
+            }
+
+            section:nth-child(2)>h5{
+                font-family: "Roboto Thin" ,sans-serif;
+                position: absolute;
+                top: 13vh;
+                right: 0;
+                left: 46.8vw;
+                margin: auto;
+            }
+
+            section:nth-child(2)>img{
+                position: absolute;
+                top: 18vh;
+                right: 0;
+                left: 0;
+                margin: auto;
+            }
+
+            section:nth-child(2)>h3{
+                font-family: "Roboto Thin" ,sans-serif;
+                position: absolute;
+                top: 30vh;
+                right: 0;
+                left:46.8vw;
+                margin: auto;
+            }
+
+            section:nth-child(2)>p{
+                font-family: "Roboto Thin" ,sans-serif;
+                position: absolute;
+                top: 35vh;
+                right: 0;
+                left: 40vw;
+                margin: auto;
+            }
+
+
+
+
+
+
+
+            section:nth-child(3){
+                width: 100vw;
+                height: 80vh;
+                position: relative;
+            }
+
+            section:nth-child(3)>h1{
+                font-family: "Roboto Thin" ,sans-serif;
+                position: absolute;
+                top: 8vh;
+                left: 44vw;
+                margin: auto;
+            }
+
+            section:nth-child(3)>h5{
+                font-family: "Roboto Thin" ,sans-serif;
+                position: absolute;
+                top: 13vh;
+                right: 0;
+                left: 48vw;
+                margin: auto;
+            }
+
+            section:nth-child(3)>div{
+                height: 35vh;
+                width: 19vw;
+                background-color: #00ADB5;
+                position: absolute;
+                left: 11vw;
+                top: 20vh;
+            }
+
+            section:nth-child(3)>div>img{
+                position: absolute;
+                height: 10vh;
+                width: 5vw;
+                left: 7vw;
+                top: 7vh;
+                margin: auto;
+            }
+
+            section:nth-child(3)>div>h4{
+                color: white;
+                position: absolute;;
+                margin: auto;
+                left: 3vw;
+                top: 23vh;
+            }
+
 
         </style>
 
@@ -58,7 +216,7 @@
     <body>
 
         <header>
-            <img src="assests/images/logo.png" width="7%" alt="Image not Found" style="padding: 20px">
+            <img src="assests/images/logo.png" alt="Image not Found">
 
             <nav>
                 <ul>
@@ -68,7 +226,7 @@
                     <li><a href="#education">Education</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#contactme">Contact me</a></li>
-                    <li><a>Download CV</a></li>
+                    <li><a style="color: white">Download CV</a></li>
                 </ul>
             </nav>
         </header>
@@ -77,59 +235,71 @@
         <main>
 
             <section>
-                <img src="assests/images/TopImage.png" width="15%">
-                
-                <article>
-                    <p>I’m a Full Stack Developer in Sri Lanka, and I’m very Passionate and dedicated to my Work.</p>
-                </article>
 
-                <aside></aside>
+                <img src="assests/images/TopImage.png" alt="Image Not Found">
+                <img src="assests/images/TopText.png" alt="Image Not Found">
+
+                <h4>About Me</h4>
+
             </section>
 
+
+
+
             <section>
+
                 <dfn id = "features"></dfn>
                 <h1>Features</h1>
+                <h5>Why Choose Me</h5>
 
-                <article>
-                    <img src="assests/images/AwesomeIdea.png" width="5%">
-                    <p>Present awesome ideas while engaging projects</p>
-                </article>
+                <img src="assests/images/AwesomeIdea.png" width="5%" style="right: 59vw">
+                <h3 style="left: 16vw">Awesome Ideas</h3>
+                <p style="left: 10vw">Present awesome ideas while engaging projects</p>
 
-                <article>
-                    <img src="assests/images/HighQuality.png" width="5%">
-                    <p>Maintaining the quality and the neat of the project</p>
-                </article>
+                <img src="assests/images/HighQuality.png" width="5%">
+                <h3>High Quality</h3>
+                <p>Maintaining the quality and the neat of the project</p>
 
-                <article>
-                    <img src="assests/images/WorkOnTime.png" width="5%">
-                    <p>Finalise projects on time and high accuracy</p>
-                </article>
+                <img src="assests/images/WorkOnTime.png" width="5%" style="left: 59vw">
+                <h3 style="left: 75vw">Workin On Time</h3>
+                <p style="left: 70vw">Finalise projects on time and high accuracy</p>
+
             </section>
+
+
+
 
             <section>
+
                 <dfn id = "expertise"></dfn>
                 <h1>My Expertise</h1>
+                <h5>What I Do</h5>
 
-                <article>
+                <div>
                     <img src="assests/images/StandAloneApp.png">
-                    <p>Standalone Application Development</p>
-                </article>
+                    <h4 style="left: 2.3vw">Standalone Application Development</h4>
+                </div>
 
-                <article>
+                <div style="left: 31vw">
                     <img src="assests/images/WebApp.png">
-                    <p>Web Application Development</p>
-                </article>
+                    <h4 style="left: 3.5vw">Web Application Development</h4>
+                </div>
 
-                <article>
+                <div style="left: 51vw">
                     <img src="assests/images/MobileApp.png">
-                    <p>Mobile Application Development</p>
-                </article>
+                    <h4>Mobile Application Development</h4>
+                </div>
 
-                <article>
+                <div style="left: 71vw">
                     <img src="assests/images/IOT.png">
-                    <p>IOT Based Developmentt</p>
-                </article>
+                    <h4 style="left: 4.5vw">IOT Based Development</h4>
+                </div>
+
+
             </section>
+
+
+
 
             <section>
                 <aside></aside>
@@ -144,6 +314,9 @@
                 </article>
             </section>
 
+
+
+
             <section>
                 <dfn id = "education"></dfn>
                 <h1>Education</h1>
@@ -152,10 +325,16 @@
                 <article></article>
             </section>
 
+
+
+
             <section>
                 <h1>Look at my work and Give feedback</h1>
                 <aside></aside>
             </section>
+
+
+
 
             <section>
                 <dfn id = "skills"></dfn>
@@ -168,6 +347,9 @@
                 <img src="assests/images/css-3.png" width="5%">
             </section>
 
+
+
+
             <section>
                 <h1>From my blog</h1>
                 <img src="assests/images/MyImage1.jpeg" width="15%">
@@ -175,11 +357,17 @@
                 <img src="assests/images/MyImage4.jpeg" width="15%">
             </section>
 
+
+
+
             <section>
                 <h1>I am available for Freelancing</h1>
                 <p>I do my freelancer work on Fiverr</p>
                 <aside></aside>
             </section>
+
+
+
 
             <section>
                 <dfn id = "contactme"></dfn>
