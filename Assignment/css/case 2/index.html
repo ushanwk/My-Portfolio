@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <title>Css Case Two</title>
 
   <style>
+
+    /*---------------Header-----------------*/
 
     header{
       width: 100%;
@@ -43,10 +46,59 @@
       font-weight: bold;
     }
 
+    
+    
+    @media all and (max-width: 425px) {
+
+      header{
+        position: relative;
+        width: 100%;
+        background-color: white;
+        border: 2px solid black;
+        border: black;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        height: 90px;
+      }
+
+      header>img{
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+      }
+
+      header>nav{
+        position: absolute;
+        right: 35px;
+        left: 0;
+        top: 30px;
+      }
+
+      header>nav>ul>li{
+        display: inline;
+        margin-right: 20px;
+        font-size: 10px;
+        color: red;
+      }
+
+    }
+
+    
+
+
+
+
+    /*---------------Body------------------*/
+
     body>main{
       position: relative;
       margin-top: 80px;
     }
+
+
+    /*--------------Body Nav----------------*/
 
     body>main>nav{
       width: 180px;
@@ -116,6 +168,26 @@
       margin-left: 9px;
     }
 
+
+
+
+
+
+    @media all and (max-width: 425px) {
+
+      body>main>nav{
+        visibility: hidden;
+      }
+
+    }
+
+
+
+
+
+    /*-----------------Body Para----------------*/
+
+
     main>section>section{
       margin-left: 200px;
       padding: 10px;
@@ -155,6 +227,28 @@
       border-radius: 20px;
 
     }
+
+
+
+
+    @media all and (max-width: 425px) {
+
+      main>section>section{
+        margin-left: 20px;
+        padding: 10px;
+        position: relative;
+      }
+
+      main>section>section>div>img{
+        width: 100%;
+        height:32%;
+      }
+
+    }
+
+
+
+
 
 
 

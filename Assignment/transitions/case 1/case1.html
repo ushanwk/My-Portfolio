@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Case 1</title>
+  <link rel="stylesheet" href="/Assignment/css/normalize.css">
+
+  <style>
+
+    section{
+      position: relative;
+    }
+
+    div{
+      transition: 2s;
+      height: 50px;
+      width: 400px;
+      background-color: #00ADB5;
+      margin: 10px;
+      text-align: center;
+      justify-content: center;
+      position: absolute;
+      padding-top: 7px;
+    }
+
+    div>img{
+      width: 10%;
+      position: absolute;
+      right: 0;
+      padding-top: 3px;
+    }
+
+    div:nth-child(1){
+      top: 10px;
+      left: -350px;
+    }
+
+    div:nth-child(2){
+      top: 70px;
+      left: -350px;
+    }
+
+    div:nth-child(3){
+      top: 130px;
+      left: -350px;
+    }
+
+    div:hover{
+      left: -100px;
+      transition: 2s;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <section>
+
+    <div>Home<img src="java.png"></div>
+    <div>Address<img src="javafx.webp""></div>
+    <div>Age<img src="mysql.png"></div>
+
+  </section>
+
+</body>
+
+</html>
