@@ -1,0 +1,89 @@
+section:nth-child(6){
+    position: relative;
+    height: 60vh;
+    width: 72vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+section:nth-child(6)>h5{
+    width: 5.5vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #05BFDB;
+
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+section:nth-child(6)>h1{
+    width: 19vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+
+    position: absolute;
+    top: 18vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+section:nth-child(6)>img{
+    width: 5%;
+
+    position: absolute;
+    top: 35vh;
+    margin: auto;
+}
+
+#javaLogo{
+    right: 0;
+    left: 0;
+}
+
+#sqlLogo{
+    right: 0vw;
+    left: 15vw;
+}
+
+#jsLogo{
+    border-radius: 15%;
+    right: 15vw;
+    left: 0vw;
+}
+
+#cssLogo{
+    right: 0vw;
+    left: 30vw;
+}
+
+#htmlLogo{
+    right: 30vw;
+    left: 0vw;
+}
+
+#figmaLogo{
+    right: 0vw;
+    left: 45vw;
+}
+
+#xdLogo{
+    right: 45vw;
+    left: 0vw;
+}
+
+#arduinoLogo{
+    right: 0vw;
+    left: 60vw;
+}
+
+#hibernateLogo{
+    right: 60vw;
+    left: 0vw;
+}

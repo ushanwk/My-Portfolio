@@ -1,0 +1,48 @@
+
+header{
+    height: 8vh;
+    width: 73.33vw;
+    padding-left: 13.33vw;
+    padding-right: 13.33vw;
+    background-color: #E6F3F4;
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+header>img{
+    position: absolute;
+    top: 0.5vh;
+    bottom: 0;
+    margin: auto;
+}
+
+header>nav{
+    position: absolute;
+    right: 13.33vw;
+    top: 0.9vh;
+    bottom: 0;
+    margin: auto;
+}
+
+header>nav>ul>li{
+    display: inline;
+    font-family: Inter, SansSerif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 0.8vw;
+    padding-left: 0.8vw;
+}
+
+header>nav>ul>li>a {
+    color: black;
+    text-decoration: none;
+}
+
+header>nav>ul>li:nth-child(7){
+    background-color: #05BFDB;
+    border-radius: 8px;
+    padding: 1vh;
+    box-shadow: #05BFDB 0px 4px 12px;
+}

@@ -1,0 +1,243 @@
+section:nth-child(1){
+    width: 100vw;
+    height: 95vh;
+    position: relative;
+}
+
+
+section:nth-child(1)>div:nth-child(1){
+    width: 100vw;
+    height: 80vh;
+}
+
+section:nth-child(1)>div:nth-child(1)>img{
+    width: 100vw;
+    height: 90vh;
+}
+
+
+
+section:nth-child(1)>div:nth-child(2){
+    width: 73.33vw;
+    height: 80vh;
+    padding-left: 13.33vw;
+    padding-right: 13.33vw;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+section:nth-child(1)>div:nth-child(2)>h1{
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 2px #99A3A8;
+    padding-left: 1vw;
+
+    position: absolute;
+    top: 18vh;
+    margin: auto;
+}
+
+section:nth-child(1)>div:nth-child(2)>h2{
+    font-family: Inter, SansSerif;
+    font-weight: 900;
+    color: #0A0A0A;
+    font-size: 2.5vw;
+    padding-left: 1.1vw;
+
+    position: absolute;
+    top: 21.5vh;
+    margin: auto;
+}
+
+section:nth-child(1)>div:nth-child(2)>h3{
+    font-family: 'Catamaran';
+    font-size: 4.5vw;
+    font-weight: 900;
+    color: #0A0A0A;
+    padding-left: 1vw;
+
+    position: absolute;
+    top: 30vh;
+    margin: auto;
+}
+
+section:nth-child(1)>div:nth-child(2)>h4{
+    font-family: 'Catamaran';
+    font-size: 4.5vw;
+    font-weight: 900;
+    color: #05BFDB;
+    padding-left: 15vw;
+
+
+    position: absolute;
+    top: 30vh;
+    margin: auto;
+}
+
+section:nth-child(1)>div:nth-child(2)>div{
+    width: 3.8vw;
+    height: 1.5vh;
+    background-color: #05BFDB;
+    border-radius: 1vh;
+    box-shadow: #05BFDB 0px 4px 12px;
+
+    position: absolute;
+    top: 40vh;
+    left: 16.5vw;
+    margin: auto;
+}
+
+section:nth-child(1)>div:nth-child(2)>h5{
+    font-family: 'Catamaran';
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #0A0A0A;
+    padding-left: 1.5vw;
+
+    position: absolute;
+    top: 46vh;
+    margin: auto;
+}
+
+section:nth-child(1)>div:nth-child(2)>p{
+    width: 25vw;
+    font-family: Inter, SansSerif;
+    font-weight: 200;
+    color: #0A0A0A;
+    font-size: 0.9vw;
+    padding-left: 1.5vw;
+
+    position: absolute;
+    top: 49vh;
+    margin: auto;
+}
+
+section:nth-child(1)>div:nth-child(2)>h6{
+    font-family: Inter, SansSerif;
+    font-weight: 600;
+    color: white;
+    font-size: 0.8vw;
+    padding: 0.7vw;
+    background-color: #05BFDB;
+    border-radius: 8px;
+    box-shadow: #05BFDB 0px 4px 12px;
+
+    position: absolute;
+    top: 58vh;
+    left: 15vw;
+    margin: auto;
+}
+
+#myImage{
+    position: absolute;
+    height: 75%;
+    width: 30%;
+    padding-right: 13.33vw;
+    padding-top: 10vh;
+
+    position: absolute;
+    right: 0;
+    margin: auto;
+}
+
+#projectsDone{
+    width: 12%;
+    position: absolute;
+    right: 34vw;
+    top: 15vh;
+    margin: auto;
+}
+
+#dailyViews{
+    width: 14%;
+    position: absolute;
+    right: 35vw;
+    top: 47vh;
+    margin: auto;
+}
+
+#preferLanguage{
+    width: 14%;
+    position: absolute;
+    right: 8vw;
+    top: 25vh;
+    margin: auto;
+}
+
+#smallDots{
+    width: 10%;
+    position: absolute;
+    right: 15vw;
+    top: 11vh;
+    margin: auto;
+}
+
+#largeDots{
+    width: 10%;
+    position: absolute;
+    right: 32vw;
+    top: 54vh;
+    margin: auto;
+}
+
+#linkedIn{
+    width: 1%;
+    position: absolute;
+    left: 23vw;
+    top: 59.5vh;
+    margin: auto;
+}
+
+#instergram{
+    width: 1%;
+    position: absolute;
+    left: 25vw;
+    top: 59.5vh;
+    margin: auto;
+}
+
+#facebook{
+    width: 1%;
+    position: absolute;
+    left: 27vw;
+    top: 59.5vh;
+    margin: auto;
+}
+
+#dotArrow1{
+    width: 3%;
+    position: absolute;
+    left: 18vw;
+    top: 83vh;
+    margin: auto;
+}
+
+#dotArrow2{
+    width: 3%;
+    position: absolute;
+    left: 15vw;
+    top: 83vh;
+    margin: auto;
+}
+
+#dotArrow3{
+    width: 3%;
+    position: absolute;
+    left: 12vw;
+    top: 83vh;
+    margin: auto;
+}
+
+#logo{
+    width: 4%;
+    position: absolute;
+    left: 7vw;
+    top: 82vh;
+    margin: auto;
+}

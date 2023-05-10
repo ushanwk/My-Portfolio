@@ -1,618 +1,480 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-
-    <head>
-
-        <dfn id = "home"></dfn>
-        <title>Ushan Kaushalya|Fullstack Developer</title>
-        <meta name="description" content="Ushan Kaushalya">
-        <link rel="stylesheet" href="/Assignment/css/normalize.css">
+<head>
 
-        <style>
+  <title>Ushan Kaushalya</title>
+  <meta name="description" content="Ushan Kaushalya">
+  <link rel="stylesheet" href="normalize.css">
 
-            
-            /*----------------Header----------------*/
-            
-            header{
-                background-color: #EFF6FF;
-                position: sticky;
-                top: 0;
-                z-index: 3;
-            }
-
-            header>img{
-                width: 7%;
-                padding: 20px;
-                padding-left: 40px;
-                left: 500px;
-                margin: auto;
-            }
-
-            header>nav>ul{
-                padding-right: 40px;
-                position: absolute;
-                margin-top: 23px;
-                top: 0;
-                right: 0;
-            }
-
-            header>nav>ul>li{
-                display: inline;
-                font-weight: bold;
-                font-family: "Roboto Thin" ,sans-serif;
-                margin: 15px;
-                padding: 1px;
-            }
-
-            header>nav>ul>li:nth-child(7){
-                background-color: #00ADB5;
-                border-radius: 5px;
-                padding: 7px;
-            }
-
-            header>nav>ul>li>a {
-                color: black;
-                text-decoration: none;
-            }
-            
-
-
-
-
-
-
-
+  <!--Inter Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
 
-            section:nth-child(1){
-                height: 90vh;
-                width: 100vw;
-                background-color: #EFF6FF;
-                position: relative;
-            }
-
-            section:nth-child(1)>img:nth-child(1){
-                position: absolute;
-                height: 90%;
-                width: 45%;
-                top: 5vh;
-                right: 0;
-                margin: auto;
-            }
-
-            section:nth-child(1)>img:nth-child(2){
-                position: absolute;
-                top: 10vh;
-                left: 7vw;
-                margin: auto;
-            }
-
-            section:nth-child(1)>h4{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                margin: auto;
-                bottom: 15vh;
-                left: 7vw;
-                color: white;
-                background-color: #00ADB5;
-                padding: 15px;
-                height: 18px;
-                width: 80px;
-                border-radius: 10px;
-            }
-
-
-
-
-
-
-
-
-            section:nth-child(2){
-                width: 100vw;
-                height: 50vh;
-                position: relative;
-            }
-
-            section:nth-child(2)>h1{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 9vh;
-                left: 46vw;
-                margin: auto;
-            }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
 
-            section:nth-child(2)>h5{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 13vh;
-                right: 0;
-                left: 46.8vw;
-                margin: auto;
-            }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Inter:wght@200&display=swap" rel="stylesheet">
 
-            section:nth-child(2)>img{
-                position: absolute;
-                top: 18vh;
-                right: 0;
-                left: 0;
-                margin: auto;
-            }
-
-            section:nth-child(2)>h3{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 30vh;
-                right: 0;
-                left:46.8vw;
-                margin: auto;
-            }
-
-            section:nth-child(2)>p{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 35vh;
-                right: 0;
-                left: 40vw;
-                margin: auto;
-            }
-
-
-
-
-
-
-
-            section:nth-child(3){
-                width: 100vw;
-                height: 80vh;
-                position: relative;
-            }
 
-            section:nth-child(3)>h1{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 8vh;
-                left: 45vw;
-                margin: auto;
-            }
 
-            section:nth-child(3)>h5{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 13vh;
-                right: 0;
-                left: 48vw;
-                margin: auto;
-            }
-
-            section:nth-child(3)>div{
-                height: 35vh;
-                width: 19vw;
-                background-color: #00ADB5;
-                position: absolute;
-                left: 11vw;
-                top: 20vh;
-            }
-
-            section:nth-child(3)>div>img{
-                position: absolute;
-                height: 10vh;
-                width: 5vw;
-                left: 7vw;
-                top: 7vh;
-                margin: auto;
-            }
-
-            section:nth-child(3)>div>h4{
-                color: white;
-                position: absolute;;
-                margin: auto;
-                left: 3vw;
-                top: 23vh;
-            }
-
-
-
+  <!--catamaran Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;700&family=Inter:wght@200&display=swap" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Inter:wght@200&display=swap" rel="stylesheet">
 
-            section:nth-child(4){
-                width: 100vw;
-                height: 100vh;
-                position: relative;
-            }
 
-            section:nth-child(4)>h1{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 22vh;
-                left: 33vw;
-                margin: auto;
-            }
+  <!--------------Header---------------->
 
-            section:nth-child(4)>h5{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 26vh;
-                left: 33vw;
-                margin: auto;
-            }
-
-            section:nth-child(4)>h2{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 34vh;
-                left: 33vw;
-                margin: auto;
-            }
+  <link rel="stylesheet" href="assests/css/Header.css">
 
-            section:nth-child(4)>div{
-                position: absolute;
-                height: 50vh;
-                width: 56vw;
-                top: 40vh;
-                left: 33vw;
-                margin: auto;
-            }
 
-            section:nth-child(4)>div>h3{
-                font-family: "Roboto Thin" ,sans-serif;
-                color: #74787D ;
-            }
+  <!---------------Section 1------------>
 
+  <link rel="stylesheet" href="assests/css/section1.css">
 
 
-
-
-
-            section:nth-child(6){
-                width: 100vw;
-                height: 200vh;
-                position: relative;
-            }
-
-
-            section:nth-child(6)>h1{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 8vh;
-                left: 11vw;
-                margin: auto;
-            }
-
-            section:nth-child(6)>h5{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 13vh;
-                right: 0;
-                left: 11vw;
-                margin: auto;
-            }
-
-            section:nth-child(6)>div{
-                height: 8vh;
-                width: 0.1vw;
-                background-color: black;
-                position: absolute;
-                top: 7vh;
-                right: 0;
-                left: 62vw;
-                margin: auto;
-            }
-
-            section:nth-child(6)>img{
-                position: absolute;
-                top: 25vh;
-                left: 20vw;
-                margin: auto;
-            }
-
-
-
-
-
-
-
-
-            section:nth-child(7){
-                width: 100vw;
-                height: 50vh;
-                position: relative;
-            }
-
-            section:nth-child(7)>h1{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 8vh;
-                left: 47.5vw;
-                margin: auto;
-            }
+  <!---------------Section 2------------>
 
-            section:nth-child(7)>img{
-                width: 5%;
-                position: absolute;
-                margin: auto;
-                left: 0;
-                right: 0;
-                top: 18vh;
-            }
+  <link rel="stylesheet" href="assests/css/section2.css">
 
 
+  <!---------------Section 3------------>
 
+  <link rel="stylesheet" href="assests/css/section3.css">
 
 
+  <!---------------Section 4------------>
 
-            section:nth-child(9){
-                width: 100vw;
-                height: 40vh;
-                background-color: #00ADB5;
-                position: relative;
-            }
+  <link rel="stylesheet" href="assests/css/section4.css">
 
-            section:nth-child(9)>h1{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 10vh;
-                left: 55vw;
-                margin: auto;
-                color: white;
-            }
 
-            section:nth-child(9)>h3{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 16vh;
-                left: 55.1vw;
-                margin: auto;
-                color: white;
-            }
+  <!---------------Section 5------------>
 
-            section:nth-child(9)>div{
-                font-family: "Roboto Thin" ,sans-serif;
-                position: absolute;
-                top: 25vh;
-                left: 55.1vw;
-                margin: auto;
-                background-color: white;
-                border-radius: 5px;
-                color: #00ADB5;
-                padding: 8px;
-            }
+  <link rel="stylesheet" href="assests/css/section5.css">
 
-            section:nth-child(9)>img{
-                width: 15%;
-                position: absolute;
-                top: 4vh;
-                left: 15vw;
-            }
 
+  <!---------------Section 6------------>
 
+  <link rel="stylesheet" href="assests/css/section6.css">
 
-        </style>
 
-    </head>
+  <!---------------Section 7------------>
 
-    <body>
+  <link rel="stylesheet" href="assests/css/section7.css">
 
-        <header>
-            <img src="assests/images/logo.png" alt="Image not Found">
 
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#features">Feature</a></li>
-                    <li><a href="#expertise">Expertise</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contactme">Contact me</a></li>
-                    <li><a style="color: white">Download CV</a></li>
-                </ul>
-            </nav>
-        </header>
+  <!---------------Section 8------------>
 
+  <link rel="stylesheet" href="assests/css/section8.css">
 
-        <main>
 
-            <section>
+  <!---------------Section 9------------>
 
-                <img src="assests/images/TopImage.png" alt="Image Not Found">
-                <img src="assests/images/TopText.png" alt="Image Not Found">
+  <link rel="stylesheet" href="assests/css/section9.css">
 
-                <h4>About Me</h4>
 
-            </section>
+  <!---------------Section 10----------->
 
+  <link rel="stylesheet" href="assests/css/section10.css">
 
 
+</head>
 
-            <section>
 
-                <dfn id = "features"></dfn>
-                <h1>Features</h1>
-                <h5>Why Choose Me</h5>
+<body>
 
-                <img src="assests/images/AwesomeIdea.png" width="5%" style="right: 59vw">
-                <h3 style="left: 16vw">Awesome Ideas</h3>
-                <p style="left: 10vw">Present awesome ideas while engaging projects</p>
 
-                <img src="assests/images/HighQuality.png" width="5%">
-                <h3>High Quality</h3>
-                <p>Maintaining the quality and the neat of the project</p>
+<!-------------------------------Header--------------------------------->
 
-                <img src="assests/images/WorkOnTime.png" width="5%" style="left: 59vw">
-                <h3 style="left: 75vw">Workin On Time</h3>
-                <p style="left: 70vw">Finalise projects on time and high accuracy</p>
+  <header>
 
-            </section>
+    <img src="assests/images/section1/HeaderLogo.png" style="width: 175px; height: 60px">
 
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#skills">Projects</a></li>
+        <li><a href="#contactMe" style="color: white">Contact Me</a></li>
+      </ul>
+    </nav>
 
+  </header>
 
 
-            <section>
+<!------------------------------------Main------------------------------------>
 
-                <dfn id = "expertise"></dfn>
-                <h1>My Expertise</h1>
-                <h5>What I Do</h5>
+  <main>
 
-                <div>
-                    <img src="assests/images/StandAloneApp.png">
-                    <h4 style="left: 2.3vw">Standalone Application Development</h4>
-                </div>
+    <!------------------------------Section 1--------------------------------->
 
-                <div style="left: 31vw">
-                    <img src="assests/images/WebApp.png">
-                    <h4 style="left: 3.5vw">Web Application Development</h4>
-                </div>
+    <section>
 
-                <div style="left: 51vw">
-                    <img src="assests/images/MobileApp.png">
-                    <h4>Mobile Application Development</h4>
-                </div>
+      <div>
+        <img src="assests/images/section1/Section1-Background.png">
+      </div>
 
-                <div style="left: 71vw">
-                    <img src="assests/images/IOT.png">
-                    <h4 style="left: 4.5vw">IOT Based Development</h4>
-                </div>
+      
+      <div>
+        
+        <img id="smallDots" src="assests/images/section1/Section1-Dots.png">
+        <img id="largeDots" src="assests/images/section1/Section1-LargeDots.png">
 
+        <img id="myImage" src="assests/images/section1/Section1-MyImage.png">
 
-            </section>
+        <h1>WELCOME</h1>
+        <h2>Hello I'm</h2>
+        <h3>Ushan</h3>
+        <h4>Kaushalya</h4>
 
+        <div></div>
+        <div style="left: 14.7vw; width: 1.5vw;"></div>
 
+        <h5>A Professional Full Stack Developer</h5>
 
+        <p>I'm a Full Stack Developer in Sri Lanka and I'm very Passionate and dedicated to my Work.</p>
 
-            <section>
+        <h6>About Me</h6>
 
-                <img src="assests/images/AboutMeImage.png" alt="Image Not Found">
-                <h1>About Me</h1>
-                <h5>Who Am I</h5>
+        <img id="projectsDone" src="assests/images/section1/Section1-ProjectDone.png">
 
-                <h2>I Can Develop That Help People</h2>
+        <img id="dailyViews" src="assests/images/section1/Section1-DailyViews.png">
 
-                <div>
+        <img id="preferLanguage" src="assests/images/section1/Section1-PreferLanguage.png">
 
-                    <h3>Hello I am Ushan Kaushalya I began my Software engineer
-                        life in 2021. I have spent most of my waking hours for the last
-                        years designing, programming and operating web sites. I
-                        have acquired the skills and knowledge necessary to make
-                        your project a success. I enjoy every step of the design
-                        process, from discussion and collaboration.</h3>
+        <img id="linkedIn" src="assests/images/section1/LinkedInLogo.png">
 
-                </div>
+        <img id="instergram" src="assests/images/section1/IntergramLogo.png">
 
-            </section>
+        <img id="facebook" src="assests/images/section1/FBLogo.png">
 
+        <img id="dotArrow1" src="assests/images/section1/Section1-DotArrow.png">
 
+        <img id="dotArrow2" src="assests/images/section1/Section1-DotArrow.png">
 
+        <img id="dotArrow3" src="assests/images/section1/Section1-DotArrow.png">
 
-            <section>
-                <dfn id = "education"></dfn>
-                <h1>Education</h1>
-                <article></article>
-                <article></article>
-                <article></article>
-            </section>
+        <img id="logo" src="assests/images/section1/Section1-LogoOnly.png">
 
+      </div>
+      
+    </section>
 
 
+    <!------------------------------Section 2--------------------------------->
 
-            <section>
+    <section>
 
-                <h1>Recent Works</h1>
-                <h5>Look at my Works and give your Feedbacks</h5>
+      <div>
+        <img src="assests/images/section2/Section2-LightBulb.png">
+        <h1>Awesome Ideas</h1>
+        <h2>Present awesome ideas while engaging projects</h2>
+      </div>
 
-                <h1 style="left: 70vw">10</h1>
-                <h5 style="left: 70vw">Completed Projects</h5>
+      <div>
+        <img src="assests/images/section2/Section2-Quality.png">
+        <h1>High Quality</h1>
+        <h2>Maintaining the quality and the neat of the project</h2>
+      </div>
 
-                <h1 style="left: 85vw">90%</h1>
-                <h5 style="left: 85vw">Positive Feedbacks</h5>
+      <div>
+        <img src="assests/images/section2/Section2-Chat.png">
+        <h1>Quality Communication</h1>
+        <h2>Friendly and Quality Communication among Teammates</h2>
+      </div>
 
-                <div></div>
+      <div>
+        <img src="assests/images/section2/Section2-24Hour.png">
+        <h1>Working on Time</h1>
+        <h2>Finalise projects on time and high accuracy</h2>
+      </div>
 
-                <img src="assests/images/Works.png">
+      <div>
+        <h5>Features</h5>
+        <h1>Ultimate Work Flow</h1>
+        <h2>Make More Time For The Word That Matters Most</h2>
+      </div>
 
-            </section>
+    </section>
 
 
+    <!------------------------------Section 3--------------------------------->
 
+    <section>
 
-            <section>
-                <dfn id = "skills"></dfn>
-                <h1>Skills</h1>
-                <img src="assests/images/js.png" style="right: 50vw;">
-                <img src="assests/images/java.png" style="right: 30vw;">
-                <img src="assests/images/javafx.webp" style="right: 10vw;">
-                <img src="assests/images/physics.png"style="left: 10vw;">
-                <img src="assests/images/html-5.png" style="left: 30vw;">
-                <img src="assests/images/css-3.png" style="left: 50vw;">
-            </section>
+      <h5>My Expertise</h5>
+      <h1>What I DO</h1>
 
+      <img id="upArrow" src="assests/images/section3/Section2-UpArrow.png">
 
+      <img id="downArrow" src="assests/images/section3/Section2-DownArrow.png">
 
+      <div id="box1">
+        <img src="assests/images/section3/Section2-EnterpriseAppLogo.png">
+        <h4 style="width: 15vw;">Enterprise Application</h4>
+        <h3>Create Modern Enterprise Application that reliable and consistency with awesome ideas.</h3>
+      </div>
 
-            <section>
-                <h1>From my blog</h1>
-                <img src="assests/images/MyImage1.jpeg" width="15%">
-                <img src="assests/images/MyImage3.jpeg" width="15%">
-                <img src="assests/images/MyImage4.jpeg" width="15%">
-            </section>
 
+      <div id="box2">
+        <img src="assests/images/section3/Section2-WebApp.png">
+        <h4 style="width: 11vw;">Web Application</h4>
+        <h3>Let the whole world know about your brand with a unique and performance-driven website.</h3>
+      </div>
 
 
+      <div id="box3">
+        <img src="assests/images/section3/Section2-UiLogo.png">
+        <h4 style="width: 12vw;">UI / UX Designing</h4>
+        <h3>Design is the main thing of a application. Pay more attention to the UI / UX part of the Software with eyecatching colors.</h3>
+      </div>
 
-            <section>
-                <h1>I am available for Freelancing</h1>
-                <h3>I do my freelancer work on Fiverr</h3>
-                <div>Hire Me</div>
-                <img src="assests/images/FiverrImage.png">
-            </section>
 
+      <div id="box4">
+        <img src="assests/images/section3/Section2-GraphicLogo.png">
+        <h4 style="width: 12vw;">Graphic Designing</h4>
+        <h3>The best designer can change everything in the artwork. I think graphic designers are like a magician in this field.</h3>
+      </div>
 
 
+      <div id="box5">
+        <img src="assests/images/section3/Section2-FreelanceLogo.png">
+        <h4 style="width: 8vw;">Freelancing</h4>
+        <h3>Discover the Next Carrier Move. Find worldwide Job Opportunities.</h3>
+      </div>
 
-            <section>
-                <dfn id = "contactme"></dfn>
+      
+      <div id="box6">
+        <img src="assests/images/section3/Section2-IOTLogo.png">
+        <h4 style="width: 15vw;">IOT Based Application</h4>
+        <h3>Discover the Next Generation of the human world.</h3>
+      </div>
 
-                <article></article>
 
-                <aside>
+      <div id="downBox">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
 
-                    <form>
 
-                        <fieldset>
+    </section>
 
-                            <legend><h1>Contact me</h1></legend><br><br>
 
-                            <lable>Name : </lable><input id="name" type="text"><br><br>
+    <!------------------------------Section 4--------------------------------->
 
-                            <lable>Email : </lable><input id="email" type="email"><br><br>
+    <section>
 
-                            <lable>Phone : </lable><input id="tp" type="tel"><br><br>
+      <img id="section4LargeDot" src="assests/images/section4/Section4-LargeDots.png">
+      <img id="section4MyImage1" src="assests/images/section4/Section4-MyImage2.png">
+      <img id="section4MyImage2" src="assests/images/section4/Section4-MyImage1.png">
 
-                            <lable>Subject : </lable><input id="subject" type="text"><br><br>
+      <div>
 
-                            <lable>Write your Message here : </lable><input id="message" type="textArea"><br><br>
+        <h5>About Me</h5>
 
-                        </fieldset>
+        <h1>I Can Develop That Help People</h1>
 
-                    </form>
+        <h3>Hello I am Ushan Kaushalya I began my Software engineer life in 2021. I've spent most of my waking hours for the last years designing,
+          programming and operating web sites. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step
+          of the design process, from discussion and collaboration.</h3>
+        
+        <img src="assests/images/section4/Section4-Details.png">
 
-                </aside>
-            </section>
+      </div>
 
-        </main>
 
 
-        <footer>
+    </section>
 
-            <section></section>
 
-            <aside></aside>
+    <!------------------------------Section 5--------------------------------->
 
-        </footer>
+    <section>
 
+      <h5>Skills</h5>
+      <h1>My Resume</h1>
+      
+      <img id="pathImg" src="assests/images/section5/Section5-Path.png">
 
-    </body>
+      <div id="section5Box1">
+        <h2 style="width: 13vw;">Software Engineering Degree</h2>
+        <h3 style="width: 15vw;">Institute of Java Software Engineering</h3>
+        <h4 style="width: 5vw;">2024 - 2025</h4>
+      </div>
+
+
+      <div id="section5Box2">
+        <h2 style="width: 14vw;">Graduate Diploma in Software Engineering</h2>
+        <h3 style="width: 15vw;">Institute of Java Software Engineering</h3>
+        <h4 style="width: 5vw;">2021 - 2024</h4>
+      </div>
+
+
+      <div id="section5Box3">
+        <h2 style="width: 13vw;">G.C.E Advanced Level Examination</h2>
+        <h3 style="width: 12vw;">Shariputhra Secondary School</h3>
+        <h4 style="width: 5vw;">2018 - 2021</h4>
+      </div>
+
+
+      <div id="section5Box4">
+        <h2 style="width: 13vw;">G.C.E Ordinary Level Examination</h2>
+        <h3 style="width: 12vw;">Shariputhra Secondary School</h3>
+        <h4 style="width: 5vw;">2007 - 2018</h4>
+      </div>
+
+      <img id="degreeLogo" src="assests/images/section5/Section5-DegereeLogo.png">
+      <img id="alLogo" src="assests/images/section5/Section5-ALLogo.png">
+      <img id="olLog" src="assests/images/section5/Section5-ExamLogo.png">
+      <img id="graduationLogo" src="assests/images/section5/Section5-GraduationLogo.png">
+
+    </section>
+
+
+    <!------------------------------Section 6--------------------------------->
+
+    <section>
+
+      <h5>Languages</h5>
+      <h1>What I Learnt</h1>
+      
+      <img id="javaLogo" src="assests/images/section6/Section6-Java.png">
+      <img id="sqlLogo" src="assests/images/section6/Section6-MySql.png">
+      <img id="jsLogo" src="assests/images/section6/Section6-JS.png">
+      <img id="cssLogo" src="assests/images/section6/Section6-Css.png">
+      <img id="htmlLogo" src="assests/images/section6/Section6-Html.png">
+      <img id="figmaLogo" src="assests/images/section6/Section6-Figma.png">
+      <img id="xdLogo" src="assests/images/section6/Section6-XD.png">
+      <img id="arduinoLogo" src="assests/images/section6/Section6-Arduino.png">
+      <img id="hibernateLogo" src="assests/images/section6/Section6-Hibernate.png">
+
+
+    </section>
+
+
+    <!------------------------------Section 7--------------------------------->
+
+    <section>
+
+      <h5>Projects</h5>
+      <h1>Recent Works That I Do</h1>
+
+      <h2>10</h2>
+      <h3>90%</h3>
+
+      <div></div>
+
+      <h4>Complete Projects</h4>
+      <h6>Positive Feedbacks</h6>
+
+      <img id="section7Project1" src="assests/images/section7/Section7-Project1.png">
+<!--      <img id="section7Project2" src="assests/images/section7/Section7-Project2.png">-->
+      <img id="section7Project3" src="assests/images/section7/Section7-Project3.png">
+
+      <img id="section7LeftArrow" src="assests/images/section7/Section7-LeftArrow.png">
+      <img id="section7RightArrow" src="assests/images/section7/Section7-RightArrow.png">
+
+    </section>
+
+
+    <!------------------------------Section 8--------------------------------->
+
+    <section>
+
+      <h5>Blog</h5>
+      <h1>My General Life</h1>
+
+<!--      <img id="section8Img1" src="assests/images/section8/Section8-Image1.png">-->
+<!--      <img id="section8Img2" src="assests/images/section8/Section8-Image2.png">-->
+<!--      <img id="section8Img3" src="assests/images/section8/Section8-Image3.png">-->
+<!--      <img id="section8Img4" src="assests/images/section8/Section8-Image4.png">-->
+<!--      <img id="section8Img5" src="assests/images/section8/Section8-Image5.png">-->
+<!--      <img id="section8Img6" src="assests/images/section8/Section8-Image6.png">-->
+<!--      <img id="section8Img7" src="assests/images/section8/Section8-Image7.png">-->
+
+
+    </section>
+
+
+    <!------------------------------Section 9--------------------------------->
+
+    <section>
+
+      <h5>Freelancing</h5>
+      <h1>I am Available For Freelancer Works</h1>
+      <h2>I continue my Freelancer works through Fiverr</h2>
+      <h3>Hire Me</h3>
+      
+      <img id="section9Rocket1" src="assests/images/section9/Section9-Rocket1.png">
+      <img id="section9Rocket2" src="assests/images/section9/Section9-Rocket2.png">
+
+    </section>
+
+
+    <!------------------------------Section 10-------------------------------->
+
+    <section>
+
+      <h5>Contact Me</h5>
+      <h1>Have You Any Question ?</h1>
+
+      <div id="section10div1">
+
+        <img src="assests/images/section10/Section10-Telephone%201.png">
+        <h3 style="width: 9vw">+94 71 4742 066</h3>
+        
+      </div>
+
+
+      <div id="section10div2">
+
+        <img src="assests/images/section10/Section10-Location.png">
+        <h3 style="width: 9vw">Matara, Sri Lanka</h3>
+        
+      </div>
+      
+      
+      <div id="section10div3">
+
+        <img src="assests/images/section10/Section10-Email.png">
+        <h3 style="width: 12vw">Ushanwk22@gmail.com</h3>
+
+      </div>
+      
+      
+      <div id="section10div4">
+
+        <img src="assests/images/section10/Section10-Web.png">
+        <h3 style="width: 11vw">www.ushan.epizy.com</h3>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+</body>
 
 </html>

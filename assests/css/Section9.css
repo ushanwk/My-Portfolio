@@ -1,0 +1,87 @@
+section:nth-child(9){
+    position: relative;
+    height: 50vh;
+    width: 72vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    background-color: #E6F3F4;
+}
+
+section:nth-child(9)>h5{
+    width: 6vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #05BFDB;
+
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+section:nth-child(9)>h1{
+    width: 47vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+
+    position: absolute;
+    top: 18vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+section:nth-child(9)>h2{
+    width: 23vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #737A7A;
+
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+section:nth-child(9)>h3{
+    width: 4vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: white;
+
+    background-color: #05BFDB;
+    border-radius: 8px;
+    padding: 1vh;
+    box-shadow: #05BFDB 0px 4px 12px;
+
+    position: absolute;
+    top: 38vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#section9Rocket1{
+    width: 5%;
+
+    position: absolute;
+    top: 20vh;
+    right: 5vw;
+    margin: auto;
+}
+
+#section9Rocket2{
+    width: 3%;
+
+    position: absolute;
+    top: 35vh;
+    left: 5vw;
+    margin: auto;
+}
