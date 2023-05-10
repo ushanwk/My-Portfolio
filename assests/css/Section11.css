@@ -1,0 +1,36 @@
+section:nth-child(11){
+    position: relative;
+    height: 60vh;
+    width: 72vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+section:nth-child(11)>div:nth-child(1){
+    height: 40vh;
+    width: 72vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    background-color: #0A0A0A;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+section:nth-child(11)>div:nth-child(2){
+    height: 50vh;
+    width: 72vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    border-radius: 3vh;
+    background-color: #05BFDB;
+    box-shadow: #05BFDB 0px 4px 12px;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
