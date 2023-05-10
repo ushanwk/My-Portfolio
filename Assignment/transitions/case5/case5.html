@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+  <title>Case 5</title>
+  <link rel="stylesheet" href="/Assignment/normalize.css">
+
+  <style>
+
+    div>figure{
+        width: 400vw;
+
+        position: relative;
+        left: 0vw;
+        margin: 0;
+
+        animation: 15s slider infinite;
+        animation-direction: alternate-reverse;
+    }
+
+    div>figure>img{
+        height: 100vh;
+        width: 100vw;
+        float: left;
+    }
+
+    @keyframes slider {
+        0%{
+            left: 0vw;
+        }
+        20%{
+            left: 0vw;
+        }
+        25%{
+            left: -100vw;
+        }
+        45%{
+            left: -100vw;
+        }
+        50%{
+            left: -200vw;
+        }
+        70%{
+            left: -200vw;
+        }
+        75%{
+            left: -100vw;
+        }
+        95%{
+            left: -100vw;
+        }
+        100%{
+            left: 0vw;
+        }
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+    <section>
+
+        <div>
+
+            <figure>
+                <img src="assests/Image1.jpg">
+                <img src="assests/Image2.jpg">
+                <img src="assests/Image3.jpg">
+            </figure>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
