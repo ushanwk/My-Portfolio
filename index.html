@@ -40,6 +40,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Inter:wght@200&display=swap" rel="stylesheet">
 
 
+  <!-----------------------------------AOS----------------------------------->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
   <!--------------Header---------------->
 
   <link rel="stylesheet" href="assests/css/Header.css">
@@ -1680,6 +1685,16 @@
     }
 
 
+    /*------------------------------Footer-------------------------------*/
+
+    footer{
+      position: relative;
+      height: 40vh;
+      width: 72vw;
+      padding-left: 14vw;
+      padding-right: 14vw;
+      background-color: #0A0A0A;
+    }
 
 
   </style>
@@ -1705,7 +1720,7 @@
         <li><a href="#aboutMe">About Me</a></li>
         <li><a href="#expertise">Expertise</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#skills">Projects</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#contactMe" style="color: white">Contact Me</a></li>
       </ul>
     </nav>
@@ -1719,7 +1734,7 @@
 
     <!------------------------------Section 1--------------------------------->
 
-    <section>
+    <section id="home">
 
       <div>
         <img src="assests/images/section1/Section1-Background.png">
@@ -1728,36 +1743,47 @@
       
       <div>
         
-        <img id="smallDots" src="assests/images/section1/Section1-Dots.png">
-        <img id="largeDots" src="assests/images/section1/Section1-LargeDots.png">
+        <img data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="500" id="smallDots" src="assests/images/section1/Section1-Dots.png">
+        <img data-aos="zoom-in" data-aos-delay="1900" data-aos-duration="500" id="largeDots" src="assests/images/section1/Section1-LargeDots.png">
 
-        <img id="myImage" src="assests/images/section1/Section1-MyImage.png">
+        <img data-aos="fade-zoom-in"
+             data-aos-easing="ease-in-back"
+             data-aos-delay="300"
+             data-aos-duration="1000"
+             data-aos-offset="0"
+             id="myImage" src="assests/images/section1/Section1-MyImage.png">
 
-        <h1>WELCOME</h1>
-        <h2>Hello I'm</h2>
-        <h3>Ushan</h3>
-        <h4>Kaushalya</h4>
+        <h1 data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="2000"
+            data-aos-duration="800"
+        data-aos-offset="0">WELCOME</h1>
 
-        <div></div>
-        <div style="left: 14.7vw; width: 1.5vw;"></div>
+        <h2 data-aos="fade-right" data-aos-delay="2200" data-aos-duration="800">Hello I'm</h2>
 
-        <h5>A Professional Full Stack Developer</h5>
+        <h3 data-aos="zoom-in" data-aos-delay="2500" data-aos-duration="800">Ushan</h3>
+        <h4 data-aos="zoom-in" data-aos-delay="2500" data-aos-duration="800">Kaushalya</h4>
 
-        <p>I'm a Full Stack Developer in Sri Lanka and I'm very Passionate and dedicated to my Work.</p>
+        <div data-aos="zoom-in" data-aos-delay="2600" data-aos-duration="800"></div>
+        <div data-aos="zoom-in" data-aos-delay="2600" data-aos-duration="800" style="left: 14.7vw; width: 1.5vw;"></div>
 
-        <h6>About Me</h6>
+        <h5 data-aos="fade-up" data-aos-delay="2800" data-aos-duration="800">A Professional Full Stack Developer</h5>
 
-        <img id="projectsDone" src="assests/images/section1/Section1-ProjectDone.png">
+        <p data-aos="fade-up" data-aos-delay="2800" data-aos-duration="800">I'm a Full Stack Developer in Sri Lanka and I'm very Passionate and dedicated to my Work.</p>
 
-        <img id="dailyViews" src="assests/images/section1/Section1-DailyViews.png">
+        <h6 data-aos="fade-up" data-aos-delay="3000" data-aos-duration="800">About Me</h6>
 
-        <img id="preferLanguage" src="assests/images/section1/Section1-PreferLanguage.png">
+        <img data-aos="zoom-in-right" data-aos-delay="1000" data-aos-duration="800" id="projectsDone" src="assests/images/section1/Section1-ProjectDone.png">
 
-        <img id="linkedIn" src="assests/images/section1/LinkedInLogo.png">
+        <img data-aos="zoom-in-right" data-aos-delay="1200" data-aos-duration="800" id="dailyViews" src="assests/images/section1/Section1-DailyViews.png">
 
-        <img id="instergram" src="assests/images/section1/IntergramLogo.png">
+        <img data-aos="zoom-in-left" data-aos-delay="1600" data-aos-duration="800" id="preferLanguage" src="assests/images/section1/Section1-PreferLanguage.png">
 
-        <img id="facebook" src="assests/images/section1/FBLogo.png">
+        <img data-aos="fade-up" data-aos-delay="3000" data-aos-duration="800" id="linkedIn" src="assests/images/section1/LinkedInLogo.png">
+
+        <img data-aos="fade-up" data-aos-delay="3000" data-aos-duration="800" id="instergram" src="assests/images/section1/IntergramLogo.png">
+
+        <img data-aos="fade-up" data-aos-delay="3000" data-aos-duration="800" id="facebook" src="assests/images/section1/FBLogo.png">
 
         <img id="dotArrow1" src="assests/images/section1/Section1-DotArrow.png">
 
@@ -1774,33 +1800,33 @@
 
     <!------------------------------Section 2--------------------------------->
 
-    <section>
+    <section id="features">
 
-      <div>
+      <div data-aos="fade-up" data-aos-delay="100">
         <img src="assests/images/section2/Section2-LightBulb.png">
         <h1>Awesome Ideas</h1>
         <h2>Present awesome ideas while engaging projects</h2>
       </div>
 
-      <div>
+      <div data-aos="fade-up" data-aos-delay="200">
         <img src="assests/images/section2/Section2-Quality.png">
         <h1>High Quality</h1>
         <h2>Maintaining the quality and the neat of the project</h2>
       </div>
 
-      <div>
+      <div data-aos="fade-up" data-aos-delay="300">
         <img src="assests/images/section2/Section2-Chat.png">
         <h1>Quality Communication</h1>
         <h2>Friendly and Quality Communication among Teammates</h2>
       </div>
 
-      <div>
+      <div data-aos="fade-up" data-aos-delay="400">
         <img src="assests/images/section2/Section2-24Hour.png">
         <h1>Working on Time</h1>
         <h2>Finalise projects on time and high accuracy</h2>
       </div>
 
-      <div>
+      <div data-aos="fade-up" data-aos-delay="500">
         <h5>Features</h5>
         <h1>Ultimate Work Flow</h1>
         <h2>Make More Time For The Word That Matters Most</h2>
@@ -1811,58 +1837,58 @@
 
     <!------------------------------Section 3--------------------------------->
 
-    <section>
+    <section id="expertise">
 
-      <h5>My Expertise</h5>
-      <h1>What I DO</h1>
+      <h5 data-aos="fade-right" data-aos-delay="50">>My Expertise</h5>
+      <h1 data-aos="fade-left" data-aos-delay="50">What I DO</h1>
 
-      <img id="upArrow" src="assests/images/section3/Section2-UpArrow.png">
+      <img data-aos="fade-down-left" data-aos-delay="1000" id="upArrow" src="assests/images/section3/Section2-UpArrow.png">
 
-      <img id="downArrow" src="assests/images/section3/Section2-DownArrow.png">
+      <img data-aos="fade-up-right" data-aos-delay="200" id="downArrow" src="assests/images/section3/Section2-DownArrow.png">
 
-      <div id="box1">
+      <div data-aos="fade-up" data-aos-delay="100" id="box1">
         <img src="assests/images/section3/Section2-EnterpriseAppLogo.png">
         <h4 style="width: 15vw;">Enterprise Application</h4>
         <h3>Create Modern Enterprise Application that reliable and consistency with awesome ideas.</h3>
       </div>
 
 
-      <div id="box2">
+      <div data-aos="fade-up" data-aos-delay="200" id="box2">
         <img src="assests/images/section3/Section2-WebApp.png">
         <h4 style="width: 11vw;">Web Application</h4>
         <h3>Let the whole world know about your brand with a unique and performance-driven website.</h3>
       </div>
 
 
-      <div id="box3">
+      <div data-aos="fade-up" data-aos-delay="300" id="box3">
         <img src="assests/images/section3/Section2-UiLogo.png">
         <h4 style="width: 12vw;">UI / UX Designing</h4>
         <h3>Design is the main thing of a application. Pay more attention to the UI / UX part of the Software with eyecatching colors.</h3>
       </div>
 
 
-      <div id="box4">
+      <div data-aos="fade-up" data-aos-delay="400" id="box4">
         <img src="assests/images/section3/Section2-GraphicLogo.png">
         <h4 style="width: 12vw;">Graphic Designing</h4>
         <h3>The best designer can change everything in the artwork. I think graphic designers are like a magician in this field.</h3>
       </div>
 
 
-      <div id="box5">
+      <div data-aos="fade-up" data-aos-delay="500" id="box5">
         <img src="assests/images/section3/Section2-FreelanceLogo.png">
         <h4 style="width: 8vw;">Freelancing</h4>
         <h3>Discover the Next Carrier Move. Find worldwide Job Opportunities.</h3>
       </div>
 
       
-      <div id="box6">
+      <div data-aos="fade-up" data-aos-delay="600" id="box6">
         <img src="assests/images/section3/Section2-IOTLogo.png">
         <h4 style="width: 15vw;">IOT Based Application</h4>
         <h3>Discover the Next Generation of the human world.</h3>
       </div>
 
 
-      <div id="downBox">
+      <div data-aos="fade-up" data-aos-delay="200" id="downBox">
         <div></div>
         <div></div>
         <div></div>
@@ -1874,7 +1900,7 @@
 
     <!------------------------------Section 4--------------------------------->
 
-    <section>
+    <section id="aboutMe">
 
       <img id="section4LargeDot" src="assests/images/section4/Section4-LargeDots.png">
       <img id="section4MyImage1" src="assests/images/section4/Section4-MyImage2.png">
@@ -1901,7 +1927,7 @@
 
     <!------------------------------Section 5--------------------------------->
 
-    <section>
+    <section id="skills">
 
       <h5>Skills</h5>
       <h1>My Resume</h1>
@@ -1966,7 +1992,7 @@
 
     <!------------------------------Section 7--------------------------------->
 
-    <section>
+    <section id="projects">
 
       <h5>Projects</h5>
       <h1>Recent Works That I Do</h1>
@@ -2025,7 +2051,7 @@
 
     <!------------------------------Section 10-------------------------------->
 
-    <section>
+    <section id="contactMe">
 
       <h5>Contact Me</h5>
       <h1>Have You Any Question ?</h1>
@@ -2080,6 +2106,15 @@
     <footer></footer>
 
   </main>
+
+
+  <!-----------------------------------AOS----------------------------------->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
