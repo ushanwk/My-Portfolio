@@ -4,6 +4,7 @@ section:nth-child(7){
     width: 72vw;
     padding-left: 14vw;
     padding-right: 14vw;
+    overflow: hidden;
 }
 
 section:nth-child(7)>h5{
