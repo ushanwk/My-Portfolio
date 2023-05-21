@@ -1,6 +1,6 @@
 section:nth-child(7){
     position: relative;
-    height: 115vh;
+    height: 105vh;
     width: 72vw;
     padding-left: 14vw;
     padding-right: 14vw;
@@ -144,27 +144,3 @@ section:nth-child(7)>div{
     right: 26vw;
     margin: auto;
 }
-
-
-section:nth-child(7)>h7{
-    width: 11.27vw;
-    color: white;
-    font-family: Inter, SansSerif;
-    font-size: 15px;
-    font-weight: 600;
-    padding-right: 0.8vw;
-    padding-left: 0.8vw;
-
-    background-color: #05BFDB;
-    border-radius: 8px;
-    padding: 1vh;
-    box-shadow: #05BFDB 0px 4px 12px;
-
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 5vh;
-    margin: auto;
-}
-
-
