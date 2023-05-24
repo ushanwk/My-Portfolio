@@ -1,0 +1,128 @@
+@media all and (max-width: 768px) and (min-width:425px){
+
+    section:nth-child(2){
+        height: 80vh;
+    }
+
+
+    section:nth-child(2)>div:nth-child(1){
+        top: 10vh;
+    }
+
+    section:nth-child(2)>div:nth-child(1)>h1{
+        font-size: 1.5vw;
+        width: 11vw;
+        left: 0;
+        right: 0;
+    }
+
+    section:nth-child(2)>div:nth-child(1)>h2{
+        font-size: 1vw;
+        width: 14vw;
+        left: 0;
+        right: 0;
+    }
+
+    section:nth-child(2)>div:nth-child(1)>img{
+        width: 33%;
+        top: 6vh;
+    }
+
+
+    section:nth-child(2)>div:nth-child(2){
+        top: 30vh;
+    }
+
+    section:nth-child(2)>div:nth-child(2)>h1{
+        font-size: 1.5vw;
+        width: 9vw;
+        left: 0;
+        right: 0;
+    }
+
+    section:nth-child(2)>div:nth-child(2)>h2{
+        font-size: 1vw;
+        width: 14vw;
+        left: 0;
+        right: 0;
+    }
+
+    section:nth-child(2)>div:nth-child(2)>img{
+        width: 33%;
+        top: 6vh;
+    }
+
+
+
+    section:nth-child(2)>div:nth-child(3){
+        top: 20vh;
+    }
+
+    section:nth-child(2)>div:nth-child(3)>h1{
+        font-size: 1.5vw;
+        width: 16vw;
+        left: 0;
+        right: 0;
+    }
+
+    section:nth-child(2)>div:nth-child(3)>h2{
+        font-size: 1vw;
+        width: 14vw;
+        left: 0;
+        right: 0;
+    }
+
+    section:nth-child(2)>div:nth-child(3)>img{
+        width: 33%;
+        top: 6vh;
+    }
+
+
+    section:nth-child(2)>div:nth-child(4){
+        top: 40vh;
+    }
+
+    section:nth-child(2)>div:nth-child(4)>h1{
+        font-size: 1.5vw;
+        width: 11.5vw;
+        left: 0;
+        right: 0;
+    }
+
+    section:nth-child(2)>div:nth-child(4)>h2{
+        font-size: 1vw;
+        width: 14vw;
+        left: 0;
+        right: 0;
+    }
+
+    section:nth-child(2)>div:nth-child(4)>img{
+        width: 33%;
+        top: 6vh;
+    }
+
+    section:nth-child(2)>div:nth-child(5){
+        height: 40vh;
+        width: 30vw;
+
+        position: absolute;
+        top: 25vh;
+        right: 12vw;
+        margin: auto;
+    }
+
+
+    section:nth-child(2)>div:nth-child(5)>h5{
+        font-size: 1.5vw;
+    }
+
+    section:nth-child(2)>div:nth-child(5)>h1{
+        font-size: 4vw;
+    }
+
+    section:nth-child(2)>div:nth-child(5)>h2{
+        width: 25vw;
+        font-size: 1.3vw;
+    }
+
+}
