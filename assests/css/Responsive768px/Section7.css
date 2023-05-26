@@ -1,0 +1,47 @@
+@media all and (max-width: 768px) and (min-width:425px){
+
+    section:nth-child(7){
+        height: 80vh;
+    }
+
+    section:nth-child(7)>h5{
+        top: 20vh;
+        font-size: 1.5vw;
+    }
+
+    section:nth-child(7)>h1{
+        top: 22.5vh;
+        font-size: 4vw;
+        width: 25vw;
+    }
+
+    section:nth-child(7)>h2{
+        font-size: 5vw;
+        right: 16vw;
+        top: 22.5vh;
+    }
+
+    section:nth-child(7)>h3{
+        font-size: 5vw;
+        top: 22.5vh;
+    }
+
+    #section7LeftArrow{
+        top: 52vh;
+    }
+
+    #section7RightArrow{
+        top: 52vh;
+    }
+
+    #section7Project1{
+        top: 42.5vh;
+    }
+
+    #section7Project2{
+        top: 42.5vh;
+    }
+
+
+
+}
