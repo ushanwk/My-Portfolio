@@ -50,7 +50,7 @@
   </header>
 
 
-  <main id="home">
+  <main id="homePage">
 
     <section class="container-fluid p-0 position-relative" style="height: 93vh; width: 100vw">
 
@@ -69,7 +69,7 @@
 
 
 
-  <main id="customer">
+  <main id="customerPage">
 
     <section class="container-fluid p-0 position-relative bg-danger" style="height: 93vh; width: 100vw">
 
@@ -177,7 +177,7 @@
 
 
 
-    <main id="item">
+    <main id="itemPage">
 
       <section class="container-fluid p-0 position-relative bg-danger" style="height: 93vh; width: 100vw">
 
@@ -291,49 +291,25 @@
 
   <script>
 
-    document.getElementById("customer").style.display="none";
-    document.getElementById("item").style.display="none";
-    document.getElementById("orders").style.display="none";
-    document.getElementById("placeOrder").style.display="none";
+    document.getElementById("customerPage").style.display="none";
+    document.getElementById("itemPage").style.display="none";
 
     document.getElementById("btnCustomer").addEventListener("click",function (){
-      document.getElementById("home").style.display="none";
-      document.getElementById("customer").style.display="block";
-      document.getElementById("item").style.display="none";
-      document.getElementById("orders").style.display="none";
-      document.getElementById("placeOrder").style.display="none";
+      document.getElementById("homePage").style.display="none";
+      document.getElementById("customerPage").style.display="block";
+      document.getElementById("itemPage").style.display="none";
     });
 
     document.getElementById("btnItem").addEventListener("click",function (){
-      document.getElementById("home").style.display="none";
-      document.getElementById("customer").style.display="none";
-      document.getElementById("item").style.display="block";
-      document.getElementById("orders").style.display="none";
-      document.getElementById("placeOrder").style.display="none";
-    });
-
-    document.getElementById("btnOrders").addEventListener("click",function (){
-      document.getElementById("home").style.display="none";
-      document.getElementById("customer").style.display="none";
-      document.getElementById("item").style.display="none";
-      document.getElementById("orders").style.display="block";
-      document.getElementById("placeOrder").style.display="none";
-    });
-
-    document.getElementById("btnPlaceOrder").addEventListener("click",function (){
-      document.getElementById("home").style.display="none";
-      document.getElementById("customer").style.display="none";
-      document.getElementById("item").style.display="none";
-      document.getElementById("orders").style.display="none";
-      document.getElementById("placeOrder").style.display="block";
+      document.getElementById("homePage").style.display="none";
+      document.getElementById("customerPage").style.display="none";
+      document.getElementById("itemPage").style.display="block";
     });
 
     document.getElementById("btnHome").addEventListener("click",function (){
-      document.getElementById("home").style.display="block";
-      document.getElementById("customer").style.display="none";
-      document.getElementById("item").style.display="none";
-      document.getElementById("orders").style.display="none";
-      document.getElementById("placeOrder").style.display="nonee";
+      document.getElementById("homePage").style.display="block";
+      document.getElementById("customerPage").style.display="none";
+      document.getElementById("itemPage").style.display="none";
     });
 
   </script>
