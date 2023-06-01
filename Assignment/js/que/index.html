@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Que</title>
+
+    <link rel="stylesheet" href="normalize.css">
+
+    <style>
+
+        section{
+            position: relative;
+        }
+
+        #div1{
+            width: 600px;
+            height: 150px;
+
+            position: absolute;
+            top: 150px;
+            left: 400px;
+            margin: auto;
+        }
+
+        #div2{
+            width: 600px;
+            height: 150px;
+
+            border-top: 2px solid black;
+
+            position: absolute;
+            top: 300px;
+            left: 400px;
+            margin: auto;
+        }
+
+        #div3{
+            width: 600px;
+            height: 150px;
+
+            border-top: 2px solid black;
+
+            position: absolute;
+            top: 450px;
+            left: 400px;
+            margin: auto;
+        }
+
+
+        #div1>div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #div2>div{
+            height: 100px;
+            width: 400px;
+            background-color: #6ea8fe;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #div3>div{
+            height: 100px;
+            width: 100px;
+            background-color: deeppink;
+
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #box1{
+            height: 100px;
+            width: 100px;
+            background-color: #e6dbb9;
+
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #box2{
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+
+            position: absolute;
+            right: 100px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #box3{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+
+            position: absolute;
+            left: 100px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #box4{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <section>
+
+        <div id="div1">
+
+            <div id="upBox"></div>
+
+        </div>
+
+
+        <div id="div2">
+
+            <div>
+
+                <div id="box1"></div>
+                <div id="box2"></div>
+                <div id="box3"></div>
+                <div id="box4"></div>
+
+            </div>
+
+        </div>
+
+
+        <div id="div3">
+
+            <div id="downBox"></div>
+
+        </div>
+
+    </section>
+
+
+    <script>
+
+        var upBox = document.getElementById("upBox");
+        var downBox = document.getElementById("downBox");
+        var box1 = document.getElementById("box4");
+        var box2 = document.getElementById("box3");
+        var box3 = document.getElementById("box2");
+        var box4 = document.getElementById("box1");
+
+        let box = [upBox, box1, box2, box3, box4, downBox];
+        let colors = ["red", "yellow", "green", "blue", "deeppink", "orange"];
+
+        setInterval(function(){
+
+            for(let i = 0; i < 6; i++){
+                box[i].style.backgroundColor = colors[i];
+                box[i].style.border = "solid 2px black";
+            }
+
+            colors.unshift(colors[5]);
+            colors.pop();
+
+        }, 1000);
+
+
+    </script>
+
+
+</body>
+
+</html>
