@@ -303,6 +303,27 @@
     var btnSave = $("#btnSave");
 
 
+
+    //////////////////// Method 1 /////////////////////////
+
+    var ids = [];
+    var names = [];
+    var tels = [];
+    var addresses = [];
+
+
+    //////////////////// Method 2 /////////////////////////
+
+    var details = [];
+
+
+
+    //////////////////// Method 3 /////////////////////////
+
+    var detailsBig = [];
+
+
+
     btnSave.click(function(){
 
       var tblBody = $("#tblBody");
@@ -312,44 +333,45 @@
       var tel = $("#customerTelText").val();
       var address = $("#customerAddressText").val();
 
-      console.log(id)
+
+      //////////////////// Method 1 - 4 Arrays /////////////////////////
+
+      // ids.push(id);
+      // names.push(name);
+      // tels.push(tel);
+      // addresses.push(address);
+      //
+      // let tr=$('<tr> <td>'+ids[id.length-1]+'</td> <td>'+names[names.length-1]+'</td> <td>'+tels[tels.length-1]+'</td> <td>'+addresses[addresses.length-1]+'</td></tr>');
+      // $("#tblBody").append(tr);
 
 
-      let tr=$('<tr> <td>'+id+'</td> <td>'+name+'</td> <td>'+tel+'</td> <td>'+address+'</td></tr>');
+
+      //////////////////// Method 2 - 1 1D Array /////////////////////////
+
+      // details.push(id);
+      // details.push(name);
+      // details.push(tel);
+      // details.push(address);
+      //
+      // let tr=$('<tr> <td>'+ids[id.length-4]+'</td> <td>'+names[names.length-3]+'</td> <td>'+tels[tels.length-2]+'</td> <td>'+addresses[addresses.length-1]+'</td></tr>');
+      // $("#tblBody").append(tr);
+
+
+
+      //////////////////// Method 3 - 1 2D Array /////////////////////////
+
+      var detail = [id, name, tel, address];
+
+      detailsBig.push(detail);
+
+      let tr=$('<tr> <td>'+detailsBig[detailsBig.length-1][0]+'</td> <td>'+detailsBig[detailsBig.length-1][1]+'</td> <td>'+detailsBig[detailsBig.length-1][2]+'</td> <td>'+detailsBig[detailsBig.length-1][3]+'</td></tr>');
       $("#tblBody").append(tr);
+
+      console.log(id);
 
 
     });
 
-    // btnSave.addEventListener("click" ,function (){
-    //
-    //   var tblBody = document.getElementById("tblBody");
-    //
-    //   var id = document.getElementById("customerIdText").value;
-    //   var name = document.getElementById("customerNameText").value;
-    //   var tel = document.getElementById("customerTelText").value;
-    //   var address = document.getElementById("customerAddressText").value;
-    //
-    //   var row = document.createElement("tr");
-    //
-    //   var c1 = document.createElement("td");
-    //   var c2 = document.createElement("td");
-    //   var c3 = document.createElement("td");
-    //   var c4 = document.createElement("td");
-    //
-    //   c1.innerText = id;
-    //   c2.innerText = name;
-    //   c3.innerText = tel;
-    //   c4.innerText = address;
-    //
-    //   row.appendChild(c1);
-    //   row.appendChild(c2);
-    //   row.appendChild(c3);
-    //   row.appendChild(c4);
-    //
-    //   tblBody.appendChild(row);
-    //
-    // })
 
 
   </script>
