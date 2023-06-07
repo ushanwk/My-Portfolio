@@ -315,24 +315,9 @@
       console.log(id)
 
 
-      var row = $("tr").create;
+      let tr=$('<tr> <td>'+id+'</td> <td>'+name+'</td> <td>'+tel+'</td> <td>'+address+'</td></tr>');
+      $("#tblBody").append(tr);
 
-      var c1 = $("td").create;
-      var c2 = $("td").create;
-      var c3 = $("td").create;
-      var c4 = $("td").create;
-
-      c1.val(id);
-      c2.val(name);
-      c3.val(tel);
-      c4.val(address);
-
-      row.append(c1);
-      row.append(c2);
-      row.append(c3);
-      row.append(c4);
-
-      tblBody.append(row);
 
     });
 
