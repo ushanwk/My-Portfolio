@@ -273,6 +273,7 @@
   </main>
 
 
+  <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
 
   <script>
 
@@ -299,38 +300,71 @@
 
 
 
-    var btnSave = document.getElementById("btnSave");
-
-    btnSave.addEventListener("click" ,function (){
-
-      var id = document.getElementById("customerIdText").value;
-      var name = document.getElementById("customerNameText").value;
-      var tel = document.getElementById("customerTelText").value;
-      var address = document.getElementById("customerAddressText").value;
-
-      var row = document.createElement("tr");
-
-      var c1 = document.createElement("td");
-      var c2 = document.createElement("td");
-      var c3 = document.createElement("td");
-      var c4 = document.createElement("td");
-
-      c1.textContent = id;
-      c2.textContent = name;
-      c3.textContent = tel;
-      c4.textContent = address;
-
-      row.appendChild(c1);
-      row.appendChild(c2);
-      row.appendChild(c3);
-      row.appendChild(c4);
-
-      var tblBody = document.getElementById("tblBody");
-      tblBody.appendChild(row);
-
-    })
+    var btnSave = $("#btnSave");
 
 
+    btnSave.click(function(){
+
+      var tblBody = $("#tblBody");
+
+      var id = $("#customerIdText").val();
+      var name = $("#customerNameText").val();
+      var tel = $("#customerTelText").val();
+      var address = $("#customerAddressText").val();
+
+      console.log(id)
+
+
+      var row = $("tr").create;
+
+      var c1 = $("td").create;
+      var c2 = $("td").create;
+      var c3 = $("td").create;
+      var c4 = $("td").create;
+
+      c1.val(id);
+      c2.val(name);
+      c3.val(tel);
+      c4.val(address);
+
+      row.append(c1);
+      row.append(c2);
+      row.append(c3);
+      row.append(c4);
+
+      tblBody.append(row);
+
+    });
+
+    // btnSave.addEventListener("click" ,function (){
+    //
+    //   var tblBody = document.getElementById("tblBody");
+    //
+    //   var id = document.getElementById("customerIdText").value;
+    //   var name = document.getElementById("customerNameText").value;
+    //   var tel = document.getElementById("customerTelText").value;
+    //   var address = document.getElementById("customerAddressText").value;
+    //
+    //   var row = document.createElement("tr");
+    //
+    //   var c1 = document.createElement("td");
+    //   var c2 = document.createElement("td");
+    //   var c3 = document.createElement("td");
+    //   var c4 = document.createElement("td");
+    //
+    //   c1.innerText = id;
+    //   c2.innerText = name;
+    //   c3.innerText = tel;
+    //   c4.innerText = address;
+    //
+    //   row.appendChild(c1);
+    //   row.appendChild(c2);
+    //   row.appendChild(c3);
+    //   row.appendChild(c4);
+    //
+    //   tblBody.appendChild(row);
+    //
+    // })
 
 
   </script>
