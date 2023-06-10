@@ -360,11 +360,16 @@
 
       //////////////////// Method 3 - 1 2D Array /////////////////////////
 
-      var detail = [id, name, tel, address];
+      var customer = {
+        cid : id,
+        cname : name,
+        ctel : tel,
+        caddress : address
+      }
 
-      detailsBig.push(detail);
+      detailsBig.push(customer);
 
-      let tr=$('<tr> <td>'+detailsBig[detailsBig.length-1][0]+'</td> <td>'+detailsBig[detailsBig.length-1][1]+'</td> <td>'+detailsBig[detailsBig.length-1][2]+'</td> <td>'+detailsBig[detailsBig.length-1][3]+'</td></tr>');
+      let tr=$('<tr> <td>'+detailsBig[detailsBig.length-1].cid+'</td> <td>'+detailsBig[detailsBig.length-1].cname+'</td> <td>'+detailsBig[detailsBig.length-1].ctel+'</td> <td>'+detailsBig[detailsBig.length-1].caddress+'</td></tr>');
       $("#tblBody").append(tr);
 
       console.log(id);
