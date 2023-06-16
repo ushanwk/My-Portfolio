@@ -72,6 +72,7 @@
             height: 8vh;
             width: 43vw;
             border: white solid 2px;
+            background-color: white;
             border-radius: 10px;
 
             position: absolute;
@@ -81,9 +82,9 @@
         }
 
         #textFld>h2{
-            color: white;
             width: 4vh;
             font-size: 5vh;
+            color: black;
 
             position: absolute;
             left: 0;
@@ -485,6 +486,8 @@
 
     </style>
 
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+
 </head>
 
 
@@ -506,7 +509,7 @@
 
           <div id="textFld">
 
-              <h2></h2>
+              <h2 id="txt">0</h2>
 
           </div>
 
@@ -633,6 +636,157 @@
       </section>
 
   </main>
+
+
+    <script>
+
+        let preValue = 0;
+        let postValue = 0;
+        let operator = '+';
+        let answer = 0;
+
+        $('#txt').text(0);
+
+        $('#clearAll').click(function (){
+            $('#txt').text(0);
+            preValue = 0;
+        });
+
+        $('#btn1').click(function (){
+            if($('#txt').text() == 0){
+                $('#txt').text(1);
+            }else{
+                $('#txt').text($('#txt').text() + 1);
+            }
+        });
+
+        $('#btn2').click(function (){
+            if($('#txt').text() == 0){
+                $('#txt').text(2);
+            }else{
+                $('#txt').text($('#txt').text() + 2);
+            }
+        });
+
+        $('#btn3').click(function (){
+            if($('#txt').text() == 0){
+                $('#txt').text(3);
+            }else{
+                $('#txt').text($('#txt').text() + 3);
+            }
+        });
+
+        $('#btn4').click(function (){
+            if($('#txt').text() == 0){
+                $('#txt').text(4);
+            }else{
+                $('#txt').text($('#txt').text() + 4);
+            }
+        });
+
+        $('#btn5').click(function (){
+            if($('#txt').text() == 0){
+                $('#txt').text(5);
+            }else{
+                $('#txt').text($('#txt').text() + 5);
+            }
+        });
+
+        $('#btn6').click(function (){
+            if($('#txt').text() == 0){
+                $('#txt').text(6);
+            }else{
+                $('#txt').text($('#txt').text() + 6);
+            }
+        });
+
+        $('#btn7').click(function (){
+            if($('#txt').text() == 0){
+                $('#txt').text(7);
+            }else{
+                $('#txt').text($('#txt').text() + 7);
+            }
+        });
+
+        $('#btn8').click(function (){
+            if($('#txt').text() == 0){
+                $('#txt').text(8);
+            }else{
+                $('#txt').text($('#txt').text() + 8);
+            }
+        });
+
+        $('#btn9').click(function (){
+            if($('#txt').text() == 0){
+                $('#txt').text(9);
+            }else{
+                $('#txt').text($('#txt').text() + 9);
+            }
+        });
+
+        $('#btn0').click(function (){
+            if($('#txt').text() == 0){
+                $('#txt').text(0);
+            }else{
+                $('#txt').text($('#txt').text() + 0);
+            }
+        });
+
+
+
+        $('#btnPlus').click(function (){
+            operator = '+';
+            preValue = $('#txt').text();
+            $('#txt').text(0);
+        });
+
+        $('#btnMins').click(function (){
+            operator = '-';
+            preValue = $('#txt').text();
+            $('#txt').text(0);
+        });
+
+        $('#btnMul').click(function (){
+            operator = '*';
+            preValue = $('#txt').text();
+            $('#txt').text(0);
+        });
+
+        $('#btnDvd').click(function (){
+            operator = '/';
+            preValue = $('#txt').text();
+            $('#txt').text(0);
+        });
+
+
+
+        $('#btnEql').click(function (){
+            postValue = $('#txt').text();
+            $('#txt').text("");
+
+            if(operator == '+'){
+                answer = (parseInt(preValue) + parseInt(postValue));
+            }
+
+            if(operator == '-'){
+                answer = (parseInt(preValue) - parseInt(postValue));
+            }
+
+            if(operator == '*'){
+                answer = (parseInt(preValue) * parseInt(postValue));
+            }
+
+            if(operator == '/'){
+                answer = (parseInt(preValue) / parseInt(postValue));
+            }
+
+            $('#txt').text(answer);
+
+        });
+
+
+
+    </script>
 
 </body>
 
