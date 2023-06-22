@@ -253,3 +253,118 @@ section:nth-child(3)>div>h3{
     margin: auto;
 }
 
+
+#downBox>div:nth-child(4)>h5{
+    width: 7vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    bottom: 5vh;
+    left: 7%;
+    margin: auto;
+}
+
+#downBox>div:nth-child(4)>h1{
+    width: 7vw;
+    font-family: Inter, SansSerif;
+    font-size: 4vw;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    bottom: 7vh;
+    left: 7%;
+    margin: auto;
+}
+
+
+#downBox>div:nth-child(5)>h5{
+    width: 9vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    bottom: 4.5vh;
+    left: 31.5%;
+    margin: auto;
+}
+
+#downBox>div:nth-child(5)>h1{
+    width: 7vw;
+    font-family: Inter, SansSerif;
+    font-size: 4vw;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    bottom: 7vh;
+    left: 33%;
+    margin: auto;
+}
+
+
+#downBox>div:nth-child(6)>h5{
+    width: 9vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    bottom: 4.5vh;
+    left: 56%;
+    margin: auto;
+}
+
+#downBox>div:nth-child(6)>h1{
+    width: 7vw;
+    font-family: Inter, SansSerif;
+    font-size: 4vw;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    bottom: 7vh;
+    left: 57%;
+    margin: auto;
+}
+
+
+#downBox>div:nth-child(7)>h5{
+    width: 9vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    bottom: 4.5vh;
+    left: 81%;
+    margin: auto;
+}
+
+#downBox>div:nth-child(7)>h1{
+    width: 7vw;
+    font-family: Inter, SansSerif;
+    font-size: 4vw;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    bottom: 7vh;
+    left: 82%;
+    margin: auto;
+}

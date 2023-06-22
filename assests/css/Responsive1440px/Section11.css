@@ -35,3 +35,111 @@ section:nth-child(11)>div:nth-child(2){
     margin: auto;
 }
 
+section:nth-child(11)>div:nth-child(2)>h1{
+    font-family: 'Catamaran';
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: white;
+    padding-left: 1vw;
+
+    position: absolute;
+    top: 6vh;
+    left: 3vw;
+    margin: auto;
+}
+
+
+section:nth-child(11)>div:nth-child(2)>form{
+    position: absolute;
+    top: 18vh;
+    left: 4vw;
+    margin: auto;
+}
+
+#nameTxt, #emailTxt, #messageTxt{
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: white;
+}
+
+#nameTxtFld, #messageTxtFld, #emailTxtFld{
+    width: 20vw;
+    height: 3vh;
+}
+
+
+#nameTxt{
+    width : 10vw;
+
+    position: absolute;
+    top: 1vh;
+    left: 2vw;
+    margin: auto;
+}
+
+
+#emailTxt{
+    width : 10vw;
+
+    position: absolute;
+    top: 1vh;
+    left: 35vw;
+    margin: auto;
+}
+
+
+#messageTxt{
+    width : 10vw;
+
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+    margin: auto;
+}
+
+
+#nameTxtFld{
+    width : 20vw;
+
+    position: absolute;
+    top: 0.5vh;
+    left: 8.5vw;
+    margin: auto;
+}
+
+#emailTxtFld{
+    width : 23vw;
+
+    position: absolute;
+    top: 0.5vh;
+    left: 39vw;
+    margin: auto;
+}
+
+#messageTxtFld{
+    width : 54.5vw;
+    height: 10vh;
+
+    position: absolute;
+    top: 9.5vh;
+    left: 7.5vw;
+    margin: auto;
+}
+
+#btnSend{
+    width: 3vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #05BFDB;
+
+    background-color:white;
+    border-radius: 8px;
+    padding: 1vh;
+
+    position: absolute;
+    top: 24vh;
+    left: 58vw;
+    margin: auto;
+}
