@@ -1,27 +1,23 @@
-@media all and (max-width: 768px) and (min-width:425px){
+@media all and (max-width: 425px) and (min-width:320px) {
 
     section:nth-child(5){
-        height: 70vh;
+        height:50vh;
     }
 
     section:nth-child(5)>h5{
-        font-size: 1.5vw;
+        width: 6.5vw;
+        font-size: 2.5vw;
+        top: 5vh;
     }
 
     section:nth-child(5)>h1{
         width: 20vw;
         font-size: 4vw;
+        top: 7vh;
     }
-
 
     section:nth-child(5)>div{
         height: 10vh;
-    }
-
-
-    section:nth-child(5)>div>h2{
-        font-size: 1.3vw;
-        top: 2vh;
     }
 
     section:nth-child(5)>div>h3{
@@ -30,52 +26,55 @@
         text-align: center;
     }
 
-    section:nth-child(5)>div>h4{
-        top: 8.5vh;
+    section:nth-child(5)>div>h2{
+        font-size: 1.5vw;
+        width: 20vw;
     }
 
 
-
     #pathImg{
-        top: 30vh;
+        top: 20vh;
+        height: 20vh;
     }
 
 
     #section5Box1{
-        top: 26vh;
+        top: 15.5vh;
     }
 
     #section5Box2{
-        top: 33vh;
+        top: 22vh;
     }
 
     #section5Box3{
-        top: 42vh;
+        top: 28vh;
     }
 
     #section5Box4{
-        top: 48vh;
+        top: 34vh;
     }
 
     #graduationLogo{
         width: 5%;
-        top: 31vh;
+        top: 21vh;
         right: 12vw;
     }
 
     #degreeLogo{
+        top: 14vh;
         width: 5%;
     }
 
     #alLogo{
         width: 4%;
-        top: 50vh;
+        top: 37vh;
     }
 
     #olLog{
         width: 3%;
-        top: 56vh;
+        top: 43vh;
     }
+
 
 
 

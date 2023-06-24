@@ -1,0 +1,39 @@
+@media all and (max-width: 425px) and (min-width:320px) {
+
+    section:nth-child(9){
+        height:30vh;
+    }
+
+    section:nth-child(9)>h5{
+        width: 12vw;
+        font-size: 2.5vw;
+        top: 5vh;
+    }
+
+    section:nth-child(9)>h1{
+        top: 10vh;
+        font-size: 5vw;
+        width: 65vw;
+        text-align: center;
+    }
+
+    section:nth-child(9)>h2{
+        top: 18vh;
+        width: 35vw;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    section:nth-child(9)>h3{
+        top: 23vh;
+    }
+
+    #section9Rocket1{
+        top: 8vh;
+    }
+
+    #section9Rocket2{
+        top: 20vh;
+    }
+
+}
