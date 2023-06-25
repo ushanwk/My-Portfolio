@@ -144,10 +144,10 @@
             <table class="table">
               <thead>
               <tr>
-                <th scope="col">ID</th>
-                <th scope="col">Name</th>
-                <th scope="col">Telephone</th>
-                <th scope="col">Address</th>
+                <th scope="col" style="color: white">ID</th>
+                <th scope="col" style="color: white">Name</th>
+                <th scope="col" style="color: white">Telephone</th>
+                <th scope="col" style="color: white">Address</th>
               </tr>
               </thead>
 
@@ -172,8 +172,7 @@
 
 
 
-
-    <main id="itemPage">
+  <main id="itemPage">
 
       <section class="container-fluid p-0 position-relative bg-danger" style="height: 93vh; width: 100vw">
 
@@ -245,10 +244,10 @@
                 <thead>
 
                 <tr>
-                  <th scope="col">Item Code</th>
-                  <th scope="col">Item Name</th>
-                  <th scope="col">Unite Price</th>
-                  <th scope="col">Quantity</th>
+                  <th scope="col" style="color: white">Item Code</th>
+                  <th scope="col" style="color: white">Item Name</th>
+                  <th scope="col" style="color: white">Unite Price</th>
+                  <th scope="col" style="color: white">Quantity</th>
                 </tr>
 
                 </thead>
@@ -271,6 +270,155 @@
       </section>
 
     </main>
+
+
+
+
+  <main id="orderPage">
+
+    <section class="container-fluid p-0 position-relative bg-danger" style="height: 93vh; width: 100vw">
+
+      <img src="assest/homepage/Background.png" class="img-fluid position-absolute" style="height: 93vh; width: 100vw">
+
+      <div class="row">
+
+        <div class="col">
+          <div style="height: 100px"></div>
+        </div>
+
+      </div>
+
+      <div class="row position-absolute container-fluid">
+
+        <div class="col-1"></div>
+
+        <div class="col-3">
+
+          <div>
+
+            <form>
+
+              <h2 style="color: white" class="text-center m-4">Order</h2>
+
+              <div class="mb-3">
+                <label for="orderID" class="form-label" style="color: white">Order ID</label>
+                <input id="orderIDTxtOrderPage" type="orderID" class="form-control" id="orderID">
+              </div>
+
+              <div class="mb-3">
+                <label for="date" class="form-label" style="color: white">Date</label>
+                <input id="dateTxtOrderPage" type="date" class="form-control" id="date">
+              </div>
+
+              <div class="mb-3">
+                <label for="customerId" class="form-label" style="color: white">Customer ID</label>
+                <input id="customerIdTxtOrderPage" type="customerID" class="form-control" id="customerId">
+              </div>
+
+              <div class="mb-3">
+                <label for="customerName" class="form-label" style="color: white">Customer Name</label>
+                <input id="customerNameTxtOrderPage" type="customerName" class="form-control" id="customerName">
+              </div>
+
+
+            </form>
+
+          </div>
+
+        </div>
+
+        <div class="col-1"></div>
+
+        <div class="col-2">
+
+          <div>
+
+            <form>
+
+              <h2 style="color: white" class="text-center m-4">Item</h2>
+
+              <div class="mb-3">
+                <label for="itemCodeOrder" class="form-label" style="color: white">Item Code</label>
+                <input id="itemCodeTxtOrderPage" type="itemCode" class="form-control" id="itemCodeOrder">
+              </div>
+
+              <div class="mb-3">
+                <label for="itemNameOrder" class="form-label" style="color: white">Item Name</label>
+                <input id="itemNameTxtOrderPage" type="itemName" class="form-control" id="itemNameOrder">
+              </div>
+
+              <div class="mb-3">
+                <label for="unitePriceOrder" class="form-label" style="color: white">Unite Price</label>
+                <input id="unitePriceTxtOrderPage" type="unitePrice" class="form-control" id="unitePriceOrder">
+              </div>
+
+              <div class="mb-3">
+                <label for="itemQtyOrder" class="form-label" style="color: white">Quantity</label>
+                <input id="itemQtyTxtOrderPage" type="itemQty" class="form-control" id="itemQtyOrder">
+              </div>
+
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end my-5">
+                <button id="btnAddItem" class="btn btn-primary me-md-2" type="button">Add Item</button>
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+        <div class="col-1"></div>
+
+
+        <div class="col-3" style="border: solid white; height: 480px">
+
+          <h3 class="mt-4" style="color: white">Total</h3>
+
+          <h1 class="m-3" style="color: white">0</h1>
+
+          <h3 class="mt-4" style="color: white">Sub Total</h3>
+
+          <h1 class="m-3" style="color: white">0</h1>
+
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <label for="cash" class="form-label" style="color: white">cash</label>
+                <input id="cashTxtOrderPage" type="cash" class="form-control" id="cash">
+              </div>
+              <div class="col">
+                <label for="discount" class="form-label" style="color: white">Discount</label>
+                <input id="discountTxtOrderPage" type="discount" class="form-control" id="discount">
+              </div>
+            </div>
+          </div>
+
+
+          <br>
+
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <label for="balance" class="form-label" style="color: white">Balance</label>
+                <input id="balanceTxtOrderPage" type="balance" class="form-control" id="balance">
+              </div>
+              <div class="col">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
+                  <button id="btnPlaceOrder" class="btn btn-primary me-md-2" type="button">Order</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-1"></div>
+
+      </div>
+
+    </section>
+
+  </main>
 
 
 
