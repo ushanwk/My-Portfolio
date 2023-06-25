@@ -1,6 +1,6 @@
-var customer = {
+var item = {
     itemCode : "",
-    itemname : "",
+    itemName : "",
     unitePrice : "",
     qty : ""
 }

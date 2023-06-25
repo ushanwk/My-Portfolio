@@ -1,1 +1,2 @@
 var detailsBig = [];
+var itemDetailsBig = [];

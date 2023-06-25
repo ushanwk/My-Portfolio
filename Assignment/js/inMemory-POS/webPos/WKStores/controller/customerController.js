@@ -13,9 +13,9 @@ $("#customerIdText, #customerNameText, #customerTelText, #customerAddressText").
 
 $("#customerIdText").keyup(function (e){
     if(regexId.test($("#customerIdText").val())){
-        $("#customerIdText").css("background-color","white");
+        $("#customerIdText").css("border-color",  "transparent");
     }else{
-        $("#customerIdText").css("background-color","red");
+        $("#customerIdText").css("border-color",  "red");
     }
 });
 
@@ -30,9 +30,9 @@ $("#customerIdText").keydown(function (e){
 
 $("#customerNameText").keyup(function (e){
     if(regexName.test($("#customerNameText").val())){
-        $("#customerNameText").css("background-color","white");
+        $("#customerNameText").css("border-color",  "transparent");
     }else{
-        $("#customerNameText").css("background-color","red");
+        $("#customerNameText").css("border-color",  "red");
     }
 });
 
@@ -47,9 +47,9 @@ $("#customerNameText").keydown(function (e){
 
 $("#customerTelText").keyup(function (e){
     if(regexTel.test($("#customerTelText").val())){
-        $("#customerTelText").css("background-color","white");
+        $("#customerTelText").css("border-color",  "transparent");
     }else{
-        $("#customerTelText").css("background-color","red");
+        $("#customerTelText").css("border-color",  "red");
     }
 });
 
@@ -64,9 +64,9 @@ $("#customerTelText").keydown(function (e){
 
 $("#customerAddressText").keyup(function (e){
     if(regexAddress.test($("#customerAddressText").val())){
-        $("#customerAddressText").css("background-color","white");
+        $("#customerAddressText").css("border-color",  "transparent");
     }else{
-        $("#customerAddressText").css("background-color","red");
+        $("#customerAddressText").css("border-color",  "red");
     }
 });
 
@@ -132,6 +132,7 @@ btnSave.click(function(){
 
     save();
     clearFields();
+    getAll();
 
 });
 
