@@ -52,7 +52,8 @@
         top: 10px;
     }
 }
-body > section {
+
+#loaderPage {
     background: #05BFDB;
 }
 
@@ -145,7 +146,7 @@ body > section {
 }
 
 
-h1{
+#h1Loader{
     width: 20vw;
     font-family: 'Catamaran';
     font-size: 1.5vw;
