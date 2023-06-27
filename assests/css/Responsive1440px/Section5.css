@@ -93,6 +93,13 @@ section:nth-child(5)>div{
     border-radius: 1vh;
 }
 
+section:nth-child(5)>div:hover{
+    box-shadow: #959393 0px 4px 12px;
+}
+
+
+
+
 
 section:nth-child(5)>div>h2{
     font-family: 'Catamaran';

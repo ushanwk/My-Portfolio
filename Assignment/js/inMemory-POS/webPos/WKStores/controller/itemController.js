@@ -3,6 +3,8 @@ var btnUpdateItem = $("#btnUpdateItem");
 var btnRemoveItem = $("#btnRemoveItem");
 var btnGetAllItem = $("#btnGetAllItem");
 
+itemGetAll();
+
 $("#itemCodeTxt, #itemNameTxt, #unitePriceTxt, #itemQtyTxt").keydown(function (e){
     if(e.key == "Tab"){
         e.preventDefault();

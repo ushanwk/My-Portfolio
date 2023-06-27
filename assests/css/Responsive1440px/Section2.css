@@ -15,6 +15,9 @@ section:nth-child(2)>div:nth-child(1){
     margin: auto;
 }
 
+
+
+
 section:nth-child(2)>div:nth-child(1)>h1{
     font-family: 'Catamaran';
     font-size: 1vw;
@@ -62,6 +65,9 @@ section:nth-child(2)>div:nth-child(2){
     top: 45vh;
     margin: auto;
 }
+
+
+
 
 section:nth-child(2)>div:nth-child(2)>h1{
     font-family: 'Catamaran';

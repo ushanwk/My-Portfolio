@@ -47,6 +47,12 @@ section:nth-child(3)>div{
     margin: auto;
 }
 
+section:nth-child(3)>div:hover{
+    box-shadow: #959393 0px 4px 12px;
+}
+
+
+
 section:nth-child(3)>div>h4{
     font-family: 'Catamaran';
     font-size: 1.5vw;

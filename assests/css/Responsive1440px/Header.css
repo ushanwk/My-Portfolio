@@ -45,3 +45,8 @@ header>nav>ul>li:nth-child(7){
     padding: 1vh;
     box-shadow: #05BFDB 0px 4px 12px;
 }
+
+header>nav>ul>li:nth-child(7):hover{
+    background-color: #088395;
+    box-shadow: #088395 0px 4px 12px;
+}

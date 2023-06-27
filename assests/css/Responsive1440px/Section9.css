@@ -68,6 +68,16 @@ section:nth-child(9)>h3{
     margin: auto;
 }
 
+section:nth-child(9)>h3>a{
+    color: white;
+    text-decoration: none;
+}
+
+section:nth-child(9)>h3:hover{
+    background-color: #088395;
+    box-shadow: #088395 0px 4px 12px;
+}
+
 #section9Rocket1{
     width: 5%;
 

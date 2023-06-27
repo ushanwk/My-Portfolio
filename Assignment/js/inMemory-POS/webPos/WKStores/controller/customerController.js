@@ -3,6 +3,8 @@ var btnRemove = $("#btnRemove");
 var btnGetAll = $("#btnGetAll");
 var btnUpdate = $("#btnUpdate");
 
+getAll();
+
 
 $("#customerIdText, #customerNameText, #customerTelText, #customerAddressText").keydown(function (e){
     if(e.key == "Tab"){

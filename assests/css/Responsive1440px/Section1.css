@@ -134,6 +134,13 @@ section:nth-child(1)>div:nth-child(2)>h6{
     margin: auto;
 }
 
+section:nth-child(1)>div:nth-child(2)>h6:hover{
+    background-color: #088395;
+    box-shadow: #088395 0px 4px 12px;
+}
+
+
+
 #myImage{
     position: absolute;
     height: 75%;
@@ -154,6 +161,12 @@ section:nth-child(1)>div:nth-child(2)>h6{
     margin: auto;
 }
 
+#projectsDone:hover{
+    width: 13%;
+}
+
+
+
 #dailyViews{
     width: 14%;
     position: absolute;
@@ -162,6 +175,12 @@ section:nth-child(1)>div:nth-child(2)>h6{
     margin: auto;
 }
 
+#dailyViews:hover{
+    width: 15%;
+}
+
+
+
 #preferLanguage{
     width: 14%;
     position: absolute;
@@ -169,6 +188,13 @@ section:nth-child(1)>div:nth-child(2)>h6{
     top: 25vh;
     margin: auto;
 }
+
+#preferLanguage:hover{
+    width: 15%;
+}
+
+
+
 
 #smallDots{
     width: 10%;

@@ -146,8 +146,8 @@ section:nth-child(7)>div{
 }
 
 section:nth-child(7)>h7{
-    width: 11vw;
-    font-faily: Inter, SansSerif;
+    width: 13vw;
+    font-family: Inter, SansSerif;
     font-size: 1vw;
     font-weight: 600;
     color: #0A0A0A;
@@ -162,6 +162,11 @@ section:nth-child(7)>h7{
     border-radius: 8px;
     padding: 1vh;
     box-shadow: #05BFDB 0px 4px 12px;
+}
+
+section:nth-child(7)>h7:hover{
+    background-color: #088395;
+    box-shadow: #088395 0px 4px 12px;
 }
 
 section:nth-child(7)>h7>a {

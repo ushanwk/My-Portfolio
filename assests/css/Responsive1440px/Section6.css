@@ -42,6 +42,12 @@ section:nth-child(6)>img{
     margin: auto;
 }
 
+section:nth-child(6)>img:hover{
+    width: 6%;
+}
+
+
+
 #javaLogo{
     right: 0;
     left: 0;
